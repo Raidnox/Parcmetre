@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_3fd_kNCWEe2xQsZyR3Hhqw" name="ParcMetreV2">
+    <eAnnotations xmi:id="_4tZLQNCWEe2xQsZyR3Hhqw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_4tZLQdCWEe2xQsZyR3Hhqw" source="codegen">
+        <details xmi:id="_4tZLQtCWEe2xQsZyR3Hhqw" key="codegenDirectory" value="/ParcMetreV/src"/>
+        <details xmi:id="_46o9ENCWEe2xQsZyR3Hhqw" key="AssociatedSourceCode" value="/ParcMetreV/src/parcMetre/App.java;168110846/1;/ParcMetreV/src/parcMetre/Imprimante.java;18498064/1;/ParcMetreV/src/parcMetre/Parcmetre.java;3115256077/1;/ParcMetreV/src/parcMetre/Ticket.java;2477694117/1;/ParcMetreV/src/parcMetre/Voiture.java;3375371491/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_4zfMMNCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_4zfzQNCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_4zfzQdCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_4zfzQtCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_4zfzQ9CWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_4zgaUNCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_4zgaUdCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_4zgaUtCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_4zhBYNCWEe2xQsZyR3Hhqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_4zkEsNCWEe2xQsZyR3Hhqw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_4zkEsdCWEe2xQsZyR3Hhqw" name="time">
+        <packagedElement xmi:type="uml:Package" xmi:id="_4z4NwNCWEe2xQsZyR3Hhqw" name="format">
+          <packagedElement xmi:type="uml:Class" xmi:id="_42NwENCWEe2xQsZyR3Hhqw" name="DateTimeFormatter"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_41_GkNCWEe2xQsZyR3Hhqw" name="LocalDateTime"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_42Cw8NCWEe2xQsZyR3Hhqw" name="DayOfWeek"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_42DYAdCWEe2xQsZyR3Hhqw" name="Duration"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_42D_EdCWEe2xQsZyR3Hhqw" name="LocalDate"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_42FNMdCWEe2xQsZyR3Hhqw" name="LocalTime"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_42GbUNCWEe2xQsZyR3Hhqw" name="Month"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_4zqyYNCWEe2xQsZyR3Hhqw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_42HCYdCWEe2xQsZyR3Hhqw" name="Arrays"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_42IQgdCWEe2xQsZyR3Hhqw" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_42TPoNCWEe2xQsZyR3Hhqw" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_42TPodCWEe2xQsZyR3Hhqw" name="Double"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_4zmg8NCWEe2xQsZyR3Hhqw" name="parcMetre">
+      <packagedElement xmi:type="uml:Class" xmi:id="_40Cl0NCWEe2xQsZyR3Hhqw" name="App">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42rqINCWEe2xQsZyR3Hhqw" name="main" specification="_40GQMNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42rqIdCWEe2xQsZyR3Hhqw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_42rqItCWEe2xQsZyR3Hhqw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalDateTime now = LocalDateTime.of(2023, 3, 2, 18, 0);&#xD;
+		Voiture v = new Voiture(&quot;AX-141-XD&quot;);&#xD;
+		Parcmetre parc = new Parcmetre(v, 3.0, now);&#xD;
+		Ticket ticket = new Ticket(parc);&#xD;
+		Imprimante imprimante = new Imprimante();&#xD;
+		imprimante.imprimer(ticket);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_40GQMNCWEe2xQsZyR3Hhqw" name="main" isStatic="true" method="_42rqINCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_40GQMdCWEe2xQsZyR3Hhqw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_40HeUNCWEe2xQsZyR3Hhqw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_40IFYNCWEe2xQsZyR3Hhqw" name="Imprimante">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42v7kNCWEe2xQsZyR3Hhqw" name="imprimer" specification="_42Bi0NCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42v7kdCWEe2xQsZyR3Hhqw" name="ticket" type="_40XV8NCWEe2xQsZyR3Hhqw"/>
+          <language>java</language>
+          <body>System.out.println(&quot;impression du ticket \n\n&quot; + ticket.text() + &quot;\nBonne soiree&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_40IscNCWEe2xQsZyR3Hhqw" name="Imprimante">
+          <eAnnotations xmi:id="_40JTgNCWEe2xQsZyR3Hhqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_40JTgdCWEe2xQsZyR3Hhqw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_40J6kNCWEe2xQsZyR3Hhqw" type="_40IFYNCWEe2xQsZyR3Hhqw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42Bi0NCWEe2xQsZyR3Hhqw" name="imprimer" method="_42v7kNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42Bi0dCWEe2xQsZyR3Hhqw" name="ticket" type="_40XV8NCWEe2xQsZyR3Hhqw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_40KhoNCWEe2xQsZyR3Hhqw" name="Parcmetre">
+        <ownedAttribute xmi:id="_42bygNCWEe2xQsZyR3Hhqw" name="voiture" type="_40aZQNCWEe2xQsZyR3Hhqw" isReadOnly="true" association="_422CMNCWEe2xQsZyR3Hhqw"/>
+        <ownedAttribute xmi:id="_42cZkNCWEe2xQsZyR3Hhqw" name="sommePayee" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_42dAodCWEe2xQsZyR3Hhqw" name="dateEntree" type="_41_GkNCWEe2xQsZyR3Hhqw" isReadOnly="true" association="_423QUNCWEe2xQsZyR3Hhqw"/>
+        <ownedAttribute xmi:id="_42dnsNCWEe2xQsZyR3Hhqw" name="MINUTE_PRICE_MIN" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_42dnsdCWEe2xQsZyR3Hhqw" value="0.00833f"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_42dnstCWEe2xQsZyR3Hhqw" name="MINUTE_PRICE_MAX" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_42dns9CWEe2xQsZyR3Hhqw" value="0.05f"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_42eOwNCWEe2xQsZyR3Hhqw" name="ferie" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_42eOwdCWEe2xQsZyR3Hhqw" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_42eOw9CWEe2xQsZyR3Hhqw" value="new String[] {&quot;01/01&quot;,&quot;01/05&quot;,&quot;08/05&quot;,&quot;14/07&quot;,&quot;15/08&quot;,&quot;1/11&quot;,&quot;11/11&quot;,&quot;25/12&quot;}"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42v7ktCWEe2xQsZyR3Hhqw" name="Parcmetre" specification="_42UdwdCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42v7k9CWEe2xQsZyR3Hhqw" name="voiture" type="_40aZQNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42v7lNCWEe2xQsZyR3Hhqw" name="sommePayee" type="_42TPodCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42v7ldCWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42v7ltCWEe2xQsZyR3Hhqw" type="_40KhoNCWEe2xQsZyR3Hhqw" direction="return"/>
+          <language>java</language>
+          <body>if(!isSommeValide(sommePayee)) {&#xD;
+			throw new IllegalArgumentException(&quot;La somme ne doit pas dépasser 14€&quot;);&#xD;
+		}&#xD;
+		this.voiture = voiture;&#xD;
+		this.sommePayee = sommePayee;&#xD;
+		this.dateEntree = date;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42wioNCWEe2xQsZyR3Hhqw" name="isSommeValide" specification="_40M94NCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42wiodCWEe2xQsZyR3Hhqw" name="somme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_42wiotCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return somme &lt;= 14f;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xJsNCWEe2xQsZyR3Hhqw" name="calculerTemps" specification="_40Nk8NCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xJsdCWEe2xQsZyR3Hhqw" type="_41_GkNCWEe2xQsZyR3Hhqw" direction="return"/>
+          <language>java</language>
+          <body>LocalDateTime newDate = dateEntree.plusMinutes((int)calculNbMinute());&#xD;
+		int minutePourJourSuivant = minuteRestantesPourJourSuivant(dateEntree);&#xD;
+		if(minutePourJourSuivant >= calculNbMinute() &amp;&amp; dateIsOk(newDate)) {&#xD;
+			return newDate;&#xD;
+		}else {&#xD;
+			double nbMinuteAjouter = calculNbMinute();&#xD;
+			if(minutePourJourSuivant &lt; nbMinuteAjouter &amp;&amp; minutePourJourSuivant > 0) {&#xD;
+				nbMinuteAjouter -= minutePourJourSuivant;&#xD;
+			}&#xD;
+			while(!dateIsOk(newDate)) {&#xD;
+				newDate = addDay(newDate);&#xD;
+			}&#xD;
+			newDate = newDate.plusMinutes((int)nbMinuteAjouter);&#xD;
+		}&#xD;
+		return newDate;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xJstCWEe2xQsZyR3Hhqw" name="addDay" specification="_42Vr4NCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xJs9CWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42xJtNCWEe2xQsZyR3Hhqw" type="_41_GkNCWEe2xQsZyR3Hhqw" direction="return"/>
+          <language>java</language>
+          <body>return date.plusDays(1).withHour(9).withMinute(0).withSecond(0).withNano(0);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xJtdCWEe2xQsZyR3Hhqw" name="dateIsOk" specification="_42WS8NCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xJttCWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42xJt9CWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return !isSunday(date.toLocalDate()) &amp;&amp; !isVaccance(date.toLocalDate()) &amp;&amp; !isFerie(String.format(&quot;%02d&quot;, date.getDayOfMonth()) + &quot;/&quot; + String.format(&quot;%02d&quot;, date.getMonthValue())) &amp;&amp; !isHeureHorsPlage(date);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xJuNCWEe2xQsZyR3Hhqw" name="isFerie" specification="_40OzENCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xJudCWEe2xQsZyR3Hhqw" name="date">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_42xJutCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>List&lt;String> list = Arrays.asList(ferie);&#xD;
+		return list.contains(date);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xwwNCWEe2xQsZyR3Hhqw" name="isSunday" specification="_42WS89CWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xwwdCWEe2xQsZyR3Hhqw" name="date" type="_42D_EdCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42xwwtCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return date.getDayOfWeek() == DayOfWeek.SUNDAY;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xww9CWEe2xQsZyR3Hhqw" name="isVaccance" specification="_42XhENCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xwxNCWEe2xQsZyR3Hhqw" name="date" type="_42D_EdCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42xwxdCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return date.getMonth() == Month.AUGUST &amp;&amp; date.getDayOfMonth() &lt;= 14;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xwxtCWEe2xQsZyR3Hhqw" name="isHeureHorsPlage" specification="_42XhE9CWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xwx9CWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42xwyNCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalTime heure = LocalTime.from(date);&#xD;
+	    return heure.isBefore(LocalTime.of(9, 0)) || heure.isAfter(LocalTime.of(19, 0));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42xwydCWEe2xQsZyR3Hhqw" name="calculNbMinute" specification="_40QBMNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42xwytCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double nbMinute = 0.0f;&#xD;
+		if(sommePayee > 2) {&#xD;
+			nbMinute = 2 / Parcmetre.MINUTE_PRICE_MIN;&#xD;
+			nbMinute += (sommePayee - 2) / Parcmetre.MINUTE_PRICE_MAX;&#xD;
+		}else { &#xD;
+			nbMinute = sommePayee / Parcmetre.MINUTE_PRICE_MIN;&#xD;
+		}&#xD;
+		return Math.round(nbMinute);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42yX0NCWEe2xQsZyR3Hhqw" name="minuteRestantesPourJourSuivant" specification="_42YIINCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42yX0dCWEe2xQsZyR3Hhqw" name="dateTime" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42yX0tCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalDateTime now = dateTime;&#xD;
+		LocalDateTime endOfDay = now.withHour(19).withMinute(0).withSecond(0).withNano(0);&#xD;
+		Duration duration = Duration.between(now, endOfDay);&#xD;
+		return (int) duration.toMinutes();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42yX09CWEe2xQsZyR3Hhqw" name="getSommePaye" specification="_40QoQNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42yX1NCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return sommePayee;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_40M94NCWEe2xQsZyR3Hhqw" name="isSommeValide" method="_42wioNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_40M94dCWEe2xQsZyR3Hhqw" name="somme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_40M94tCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_40Nk8NCWEe2xQsZyR3Hhqw" name="calculerTemps" method="_42xJsNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42VE09CWEe2xQsZyR3Hhqw" type="_41_GkNCWEe2xQsZyR3Hhqw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_40OzENCWEe2xQsZyR3Hhqw" name="isFerie" method="_42xJuNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_40OzEdCWEe2xQsZyR3Hhqw" name="date">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_40PaINCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_40QBMNCWEe2xQsZyR3Hhqw" name="calculNbMinute" method="_42xwydCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_40QBMdCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_40QoQNCWEe2xQsZyR3Hhqw" name="getSommePaye" method="_42yX09CWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_40QoQdCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42UdwdCWEe2xQsZyR3Hhqw" name="Parcmetre" method="_42v7ktCWEe2xQsZyR3Hhqw">
+          <eAnnotations xmi:id="_42VE0NCWEe2xQsZyR3Hhqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_42VE0dCWEe2xQsZyR3Hhqw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_42UdwtCWEe2xQsZyR3Hhqw" name="voiture" type="_40aZQNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42Udw9CWEe2xQsZyR3Hhqw" name="sommePayee" type="_42TPodCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42UdxNCWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42VE0tCWEe2xQsZyR3Hhqw" type="_40KhoNCWEe2xQsZyR3Hhqw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42Vr4NCWEe2xQsZyR3Hhqw" name="addDay" method="_42xJstCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42Vr4dCWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42Vr4tCWEe2xQsZyR3Hhqw" type="_41_GkNCWEe2xQsZyR3Hhqw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42WS8NCWEe2xQsZyR3Hhqw" name="dateIsOk" visibility="private" method="_42xJtdCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42WS8dCWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42WS8tCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42WS89CWEe2xQsZyR3Hhqw" name="isSunday" method="_42xwwNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42W6ANCWEe2xQsZyR3Hhqw" name="date" type="_42D_EdCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42W6AdCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42XhENCWEe2xQsZyR3Hhqw" name="isVaccance" method="_42xww9CWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42XhEdCWEe2xQsZyR3Hhqw" name="date" type="_42D_EdCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42XhEtCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42XhE9CWEe2xQsZyR3Hhqw" name="isHeureHorsPlage" method="_42xwxtCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42XhFNCWEe2xQsZyR3Hhqw" name="date" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42XhFdCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42YIINCWEe2xQsZyR3Hhqw" name="minuteRestantesPourJourSuivant" visibility="private" method="_42yX0NCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42YIIdCWEe2xQsZyR3Hhqw" name="dateTime" type="_41_GkNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42YIItCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_40XV8NCWEe2xQsZyR3Hhqw" name="Ticket">
+        <ownedAttribute xmi:id="_42fc4NCWEe2xQsZyR3Hhqw" name="parcmetre" visibility="private" type="_40KhoNCWEe2xQsZyR3Hhqw" association="_4233YdCWEe2xQsZyR3Hhqw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42yX1dCWEe2xQsZyR3Hhqw" name="Ticket" specification="_42O-MdCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42yX1tCWEe2xQsZyR3Hhqw" name="parcmetre" type="_40KhoNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42yX19CWEe2xQsZyR3Hhqw" type="_40XV8NCWEe2xQsZyR3Hhqw" direction="return"/>
+          <language>java</language>
+          <body>this.parcmetre = parcmetre;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42yX2NCWEe2xQsZyR3Hhqw" name="text" specification="_40YkENCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42yX2dCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Voiture voiture = parcmetre.getVoiture();&#xD;
+ 	LocalDateTime dateSortie = parcmetre.calculerTemps();&#xD;
+ 	StringBuilder sb = new StringBuilder();&#xD;
+ 	sb.append(&quot;========== Ticket de parking ==========\n\n&quot;);&#xD;
+ 	sb.append(&quot;Date d'entree : &quot;);&#xD;
+ 	sb.append(parcmetre.getDateEntree());&#xD;
+ 	sb.append(&quot;\n&quot;);&#xD;
+ 	sb.append(&quot;Date de sortie : &quot;);&#xD;
+ 	sb.append(dateSortie);&#xD;
+ 	sb.append(&quot;\n&quot;);&#xD;
+ 	sb.append(&quot;Montant paye : &quot;);&#xD;
+ 	sb.append(parcmetre.getSommePaye());&#xD;
+ 	sb.append(&quot; €\n&quot;);&#xD;
+ 	sb.append(&quot;Temps de parking : &quot;);&#xD;
+ 	sb.append(parcmetre.calculNbMinute());&#xD;
+ 	sb.append(&quot; Minute(s)\n&quot;);&#xD;
+ 	sb.append(&quot;Votre vehicule : &quot;);&#xD;
+ 	sb.append(voiture.getPlaqueImmatriculation());&#xD;
+ 	sb.append(&quot;\n\n&quot;);&#xD;
+ 	sb.append(&quot;Ticket a conserver merci ! \n&quot;);&#xD;
+ 	sb.append(&quot;======================================\n&quot;);&#xD;
+ 	return sb.toString();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_40YkENCWEe2xQsZyR3Hhqw" name="text" method="_42yX2NCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_40ZLINCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_42O-MdCWEe2xQsZyR3Hhqw" name="Ticket" method="_42yX1dCWEe2xQsZyR3Hhqw">
+          <eAnnotations xmi:id="_42PlQdCWEe2xQsZyR3Hhqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_42PlQtCWEe2xQsZyR3Hhqw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_42PlQNCWEe2xQsZyR3Hhqw" name="parcmetre" type="_40KhoNCWEe2xQsZyR3Hhqw"/>
+          <ownedParameter xmi:id="_42PlQ9CWEe2xQsZyR3Hhqw" type="_40XV8NCWEe2xQsZyR3Hhqw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_40aZQNCWEe2xQsZyR3Hhqw" name="Voiture">
+        <ownedAttribute xmi:id="_42gD8NCWEe2xQsZyR3Hhqw" name="plaqueImmatriculation" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_42gD8dCWEe2xQsZyR3Hhqw" value="&quot;&quot;"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42y-4NCWEe2xQsZyR3Hhqw" name="Voiture" specification="_40bAUNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42y-4dCWEe2xQsZyR3Hhqw" name="plaqueImma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_42y-4tCWEe2xQsZyR3Hhqw" type="_40aZQNCWEe2xQsZyR3Hhqw" direction="return"/>
+          <language>java</language>
+          <body>if(!isPlaqueValid(plaqueImma)) {&#xD;
+			throw new IllegalArgumentException(&quot;Plaque d'immatriculation non valide&quot;);&#xD;
+		}&#xD;
+		plaqueImmatriculation = plaqueImma;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_42y-49CWEe2xQsZyR3Hhqw" name="isPlaqueValid" specification="_40cOcNCWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_42y-5NCWEe2xQsZyR3Hhqw" name="immatriculation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_42y-5dCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String regex = &quot;^[A-Z]{2}-\\d{3}-[A-Z]{2}$&quot;;&#xD;
+		 return immatriculation.matches(regex);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_40bAUNCWEe2xQsZyR3Hhqw" name="Voiture" method="_42y-4NCWEe2xQsZyR3Hhqw">
+          <eAnnotations xmi:id="_40bAUtCWEe2xQsZyR3Hhqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_40bAU9CWEe2xQsZyR3Hhqw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_40bAUdCWEe2xQsZyR3Hhqw" name="plaqueImma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_40bAVNCWEe2xQsZyR3Hhqw" type="_40aZQNCWEe2xQsZyR3Hhqw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_40cOcNCWEe2xQsZyR3Hhqw" name="isPlaqueValid" method="_42y-49CWEe2xQsZyR3Hhqw">
+          <ownedParameter xmi:id="_40cOcdCWEe2xQsZyR3Hhqw" name="immatriculation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_40cOctCWEe2xQsZyR3Hhqw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_422CMNCWEe2xQsZyR3Hhqw" name="" memberEnd="_422CMdCWEe2xQsZyR3Hhqw _42bygNCWEe2xQsZyR3Hhqw">
+        <ownedEnd xmi:id="_422CMdCWEe2xQsZyR3Hhqw" name="" type="_40KhoNCWEe2xQsZyR3Hhqw" association="_422CMNCWEe2xQsZyR3Hhqw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_423QUNCWEe2xQsZyR3Hhqw" name="" memberEnd="_423QUdCWEe2xQsZyR3Hhqw _42dAodCWEe2xQsZyR3Hhqw">
+        <ownedEnd xmi:id="_423QUdCWEe2xQsZyR3Hhqw" name="" type="_40KhoNCWEe2xQsZyR3Hhqw" association="_423QUNCWEe2xQsZyR3Hhqw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4233YdCWEe2xQsZyR3Hhqw" name="" memberEnd="_4233YtCWEe2xQsZyR3Hhqw _42fc4NCWEe2xQsZyR3Hhqw">
+        <ownedEnd xmi:id="_4233YtCWEe2xQsZyR3Hhqw" name="" type="_40XV8NCWEe2xQsZyR3Hhqw" association="_4233YdCWEe2xQsZyR3Hhqw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_4tbAcNCWEe2xQsZyR3Hhqw">
+      <eAnnotations xmi:id="_4teq0NCWEe2xQsZyR3Hhqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_4ti8QNCWEe2xQsZyR3Hhqw" base_Package="_3fd_kNCWEe2xQsZyR3Hhqw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_40JTgtCWEe2xQsZyR3Hhqw" base_Element="_40IscNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_41_toNCWEe2xQsZyR3Hhqw" base_Element="_41_GkNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42DYANCWEe2xQsZyR3Hhqw" base_Element="_42Cw8NCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42D_ENCWEe2xQsZyR3Hhqw" base_Element="_42DYAdCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42FNMNCWEe2xQsZyR3Hhqw" base_Element="_42D_EdCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42F0QNCWEe2xQsZyR3Hhqw" base_Element="_42FNMdCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42HCYNCWEe2xQsZyR3Hhqw" base_Element="_42GbUNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42IQgNCWEe2xQsZyR3Hhqw" base_Element="_42HCYdCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42I3kNCWEe2xQsZyR3Hhqw" base_Element="_42IQgdCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42O-MNCWEe2xQsZyR3Hhqw" base_Element="_42NwENCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_42UdwNCWEe2xQsZyR3Hhqw" base_Element="_42TPodCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_42dAoNCWEe2xQsZyR3Hhqw" base_Element="_42cZkNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Array xmi:id="_42eOwtCWEe2xQsZyR3Hhqw" base_Element="_42eOwNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_42e10NCWEe2xQsZyR3Hhqw" base_Element="_42eOwNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_42fc4dCWEe2xQsZyR3Hhqw" base_Element="_42fc4NCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_422pQNCWEe2xQsZyR3Hhqw" base_Element="_422CMNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_4233YNCWEe2xQsZyR3Hhqw" base_Element="_423QUNCWEe2xQsZyR3Hhqw"/>
+  <UMLLabProfile:Reference xmi:id="_424ecNCWEe2xQsZyR3Hhqw" base_Element="_4233YdCWEe2xQsZyR3Hhqw"/>
+</xmi:XMI>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_4mkxkNCWEe2xQsZyR3Hhqw">
+  <modelElement href="ParcMetreV2.uml#_4zmg8NCWEe2xQsZyR3Hhqw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_48APANCWEe2xQsZyR3Hhqw" sourceAnchor="314.0,0.0" targetAnchor="193.0,116.0" target="_48bs0NCWEe2xQsZyR3Hhqw" source="_48CEMNCWEe2xQsZyR3Hhqw">
+    <modelElement href="ParcMetreV2.uml#_422CMNCWEe2xQsZyR3Hhqw"/>
+    <stereotypes xmi:id="_48APAdCWEe2xQsZyR3Hhqw" name="Reference">
+      <modelElement href="ParcMetreV2.uml#_422pQNCWEe2xQsZyR3Hhqw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_48APAtCWEe2xQsZyR3Hhqw" text="">
+      <visualProperties xmi:id="_5ESoUNCWEe2xQsZyR3Hhqw" position="-13.43929423691759,-59.9030931001094"/>
+    </nameVisual>
+    <sourceRole xmi:id="_48APA9CWEe2xQsZyR3Hhqw" aggregationKind="NONE" name="">
+      <modelElement href="ParcMetreV2.uml#_422CMdCWEe2xQsZyR3Hhqw"/>
+      <visualProperties xmi:id="_5ESBQNCWEe2xQsZyR3Hhqw" position="2.451948688487164,-75.57603165741475"/>
+      <visibility xmi:id="_48APBNCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48APBdCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_48APBtCWEe2xQsZyR3Hhqw" aggregationKind="NONE" name="voiture" navigable="true">
+      <modelElement href="ParcMetreV2.uml#_42bygNCWEe2xQsZyR3Hhqw"/>
+      <visualProperties xmi:id="_5ETPYNCWEe2xQsZyR3Hhqw" position="-19.548338039592977,-87.41913581464212"/>
+      <visibility xmi:id="_48APB9CWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48APCNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_48BdINCWEe2xQsZyR3Hhqw" source="_48CEMNCWEe2xQsZyR3Hhqw">
+    <modelElement href="ParcMetreV2.uml#_423QUNCWEe2xQsZyR3Hhqw"/>
+    <stereotypes xmi:id="_48BdIdCWEe2xQsZyR3Hhqw" name="Reference">
+      <modelElement href="ParcMetreV2.uml#_4233YNCWEe2xQsZyR3Hhqw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_48BdItCWEe2xQsZyR3Hhqw" text=""/>
+    <sourceRole xmi:id="_48BdI9CWEe2xQsZyR3Hhqw" aggregationKind="NONE" name="">
+      <modelElement href="ParcMetreV2.uml#_423QUdCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48BdJNCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48BdJdCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_48BdJtCWEe2xQsZyR3Hhqw" aggregationKind="NONE" name="dateEntree" navigable="true">
+      <modelElement href="ParcMetreV2.uml#_42dAodCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48BdJ9CWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48BdKNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_48vO0NCWEe2xQsZyR3Hhqw" sourceAnchor="155.0,0.0" targetAnchor="627.0,219.0" target="_48CEMNCWEe2xQsZyR3Hhqw" source="_4894UNCWEe2xQsZyR3Hhqw">
+    <modelElement href="ParcMetreV2.uml#_4233YdCWEe2xQsZyR3Hhqw"/>
+    <bendpoints xmi:id="_5ERaMNCWEe2xQsZyR3Hhqw" sourceY="-274" targetX="259"/>
+    <stereotypes xmi:id="_485m49CWEe2xQsZyR3Hhqw" name="Reference">
+      <modelElement href="ParcMetreV2.uml#_424ecNCWEe2xQsZyR3Hhqw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_485m4NCWEe2xQsZyR3Hhqw" text="">
+      <visualProperties xmi:id="_5EUdgNCWEe2xQsZyR3Hhqw" position="-28.3921153117264,150.36516244421472"/>
+    </nameVisual>
+    <sourceRole xmi:id="_485m4dCWEe2xQsZyR3Hhqw" aggregationKind="NONE" name="">
+      <modelElement href="ParcMetreV2.uml#_4233YtCWEe2xQsZyR3Hhqw"/>
+      <visualProperties xmi:id="_5ET2cNCWEe2xQsZyR3Hhqw" position="-20.138948838945225,-79.94792531573023"/>
+      <visibility xmi:id="_487cEdCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_487cENCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_485m4tCWEe2xQsZyR3Hhqw" aggregationKind="NONE" name="parcmetre" navigable="true">
+      <modelElement href="ParcMetreV2.uml#_42fc4NCWEe2xQsZyR3Hhqw"/>
+      <visualProperties xmi:id="_5EVEkNCWEe2xQsZyR3Hhqw" position="204.88917588640055,80.98130388562424"/>
+      <visibility xmi:id="_488DIdCWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_488DINCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_48CEMNCWEe2xQsZyR3Hhqw" name="Parcmetre" associationsIn="_48vO0NCWEe2xQsZyR3Hhqw" associationsOut="_48APANCWEe2xQsZyR3Hhqw _48BdINCWEe2xQsZyR3Hhqw">
+    <modelElement href="ParcMetreV2.uml#_40KhoNCWEe2xQsZyR3Hhqw"/>
+    <visualProperties xmi:id="_48CEMdCWEe2xQsZyR3Hhqw" position="-1069.0,-45.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_48CEMtCWEe2xQsZyR3Hhqw" label="+"/>
+    <attributes xmi:id="_48CEM9CWEe2xQsZyR3Hhqw" name="voiture">
+      <modelElement href="ParcMetreV2.uml#_42bygNCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CENNCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CENdCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <type xmi:id="_48CENtCWEe2xQsZyR3Hhqw" name="Voiture">
+        <modelElement href="ParcMetreV2.uml#_40aZQNCWEe2xQsZyR3Hhqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_48CEN9CWEe2xQsZyR3Hhqw" name="sommePayee">
+      <modelElement href="ParcMetreV2.uml#_42cZkNCWEe2xQsZyR3Hhqw"/>
+      <stereotypes xmi:id="_48CEONCWEe2xQsZyR3Hhqw" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV2.uml#_42dAoNCWEe2xQsZyR3Hhqw"/>
+      </stereotypes>
+      <visibility xmi:id="_48CEOdCWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_48CEOtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <type xmi:id="_48CEO9CWEe2xQsZyR3Hhqw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_48CEPNCWEe2xQsZyR3Hhqw" name="dateEntree">
+      <modelElement href="ParcMetreV2.uml#_42dAodCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEPdCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEPtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <type xmi:id="_48CEP9CWEe2xQsZyR3Hhqw" name="LocalDateTime">
+        <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_48CEQNCWEe2xQsZyR3Hhqw" defaultValue="0.00833f" name="MINUTE_PRICE_MIN" staticAttribute="true">
+      <modelElement href="ParcMetreV2.uml#_42dnsNCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEQdCWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_48CEQtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <type xmi:id="_48CEQ9CWEe2xQsZyR3Hhqw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_48CERNCWEe2xQsZyR3Hhqw" defaultValue="0.05f" name="MINUTE_PRICE_MAX" staticAttribute="true">
+      <modelElement href="ParcMetreV2.uml#_42dnstCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CERdCWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_48CERtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <type xmi:id="_48CER9CWEe2xQsZyR3Hhqw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_48CESNCWEe2xQsZyR3Hhqw" defaultValue="new String[] {&quot;01/01&quot;,&quot;01/05&quot;,&quot;08/05&quot;,&quot;14/07&quot;,&quot;15/08&quot;,&quot;1/11&quot;,&quot;11/11&quot;,&quot;25/12&quot;}" name="ferie">
+      <modelElement href="ParcMetreV2.uml#_42eOwNCWEe2xQsZyR3Hhqw"/>
+      <stereotypes xmi:id="_48CESdCWEe2xQsZyR3Hhqw" name="Array">
+        <modelElement href="ParcMetreV2.uml#_42eOwtCWEe2xQsZyR3Hhqw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_48CEStCWEe2xQsZyR3Hhqw" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV2.uml#_42e10NCWEe2xQsZyR3Hhqw"/>
+      </stereotypes>
+      <visibility xmi:id="_48CES9CWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_48CETNCWEe2xQsZyR3Hhqw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_48CETdCWEe2xQsZyR3Hhqw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_48CETtCWEe2xQsZyR3Hhqw" name="isSommeValide">
+      <modelElement href="ParcMetreV2.uml#_40M94NCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CET9CWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEUNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEUdCWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40M94tCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEUtCWEe2xQsZyR3Hhqw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEU9CWEe2xQsZyR3Hhqw" name="somme">
+        <modelElement href="ParcMetreV2.uml#_40M94dCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEVNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEVdCWEe2xQsZyR3Hhqw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CEVtCWEe2xQsZyR3Hhqw" name="calculerTemps">
+      <modelElement href="ParcMetreV2.uml#_40Nk8NCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEV9CWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEWNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEWdCWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42VE09CWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEWtCWEe2xQsZyR3Hhqw" name="LocalDateTime">
+          <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_48CEW9CWEe2xQsZyR3Hhqw" name="isFerie">
+      <modelElement href="ParcMetreV2.uml#_40OzENCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEXNCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEXdCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEXtCWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40PaINCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEX9CWEe2xQsZyR3Hhqw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEYNCWEe2xQsZyR3Hhqw" name="date">
+        <modelElement href="ParcMetreV2.uml#_40OzEdCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEYdCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEYtCWEe2xQsZyR3Hhqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CEY9CWEe2xQsZyR3Hhqw" name="calculNbMinute">
+      <modelElement href="ParcMetreV2.uml#_40QBMNCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEZNCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEZdCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEZtCWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40QBMdCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEZ9CWEe2xQsZyR3Hhqw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_48CEaNCWEe2xQsZyR3Hhqw" name="getSommePaye">
+      <modelElement href="ParcMetreV2.uml#_40QoQNCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEadCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEatCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEa9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40QoQdCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEbNCWEe2xQsZyR3Hhqw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_48CEbdCWEe2xQsZyR3Hhqw" name="Parcmetre">
+      <modelElement href="ParcMetreV2.uml#_42UdwdCWEe2xQsZyR3Hhqw"/>
+      <keywords xmi:id="_48CEbtCWEe2xQsZyR3Hhqw" keyword="create"/>
+      <visibility xmi:id="_48CEb9CWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEcNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEcdCWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42VE0tCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEctCWEe2xQsZyR3Hhqw" name="Parcmetre">
+          <modelElement href="ParcMetreV2.uml#_40KhoNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEc9CWEe2xQsZyR3Hhqw" name="voiture">
+        <modelElement href="ParcMetreV2.uml#_42UdwtCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEdNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEddCWEe2xQsZyR3Hhqw" name="Voiture">
+          <modelElement href="ParcMetreV2.uml#_40aZQNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_48CEdtCWEe2xQsZyR3Hhqw" name="sommePayee">
+        <modelElement href="ParcMetreV2.uml#_42Udw9CWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEd9CWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEeNCWEe2xQsZyR3Hhqw" name="Double">
+          <modelElement href="ParcMetreV2.uml#_42TPodCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_48CEedCWEe2xQsZyR3Hhqw" name="date">
+        <modelElement href="ParcMetreV2.uml#_42UdxNCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEetCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEe9CWEe2xQsZyR3Hhqw" name="LocalDateTime">
+          <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CEfNCWEe2xQsZyR3Hhqw" name="addDay">
+      <modelElement href="ParcMetreV2.uml#_42Vr4NCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEfdCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEftCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEf9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42Vr4tCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEgNCWEe2xQsZyR3Hhqw" name="LocalDateTime">
+          <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEgdCWEe2xQsZyR3Hhqw" name="date">
+        <modelElement href="ParcMetreV2.uml#_42Vr4dCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEgtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEg9CWEe2xQsZyR3Hhqw" name="LocalDateTime">
+          <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CEhNCWEe2xQsZyR3Hhqw" name="dateIsOk">
+      <modelElement href="ParcMetreV2.uml#_42WS8NCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEhdCWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_48CEhtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEh9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42WS8tCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEiNCWEe2xQsZyR3Hhqw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEidCWEe2xQsZyR3Hhqw" name="date">
+        <modelElement href="ParcMetreV2.uml#_42WS8dCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEitCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEi9CWEe2xQsZyR3Hhqw" name="LocalDateTime">
+          <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CEjNCWEe2xQsZyR3Hhqw" name="isSunday">
+      <modelElement href="ParcMetreV2.uml#_42WS89CWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEjdCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEjtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEj9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42W6AdCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEkNCWEe2xQsZyR3Hhqw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEkdCWEe2xQsZyR3Hhqw" name="date">
+        <modelElement href="ParcMetreV2.uml#_42W6ANCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEktCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEk9CWEe2xQsZyR3Hhqw" name="LocalDate">
+          <modelElement href="ParcMetreV2.uml#_42D_EdCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CElNCWEe2xQsZyR3Hhqw" name="isVaccance">
+      <modelElement href="ParcMetreV2.uml#_42XhENCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEldCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEltCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEl9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42XhEtCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEmNCWEe2xQsZyR3Hhqw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEmdCWEe2xQsZyR3Hhqw" name="date">
+        <modelElement href="ParcMetreV2.uml#_42XhEdCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEmtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEm9CWEe2xQsZyR3Hhqw" name="LocalDate">
+          <modelElement href="ParcMetreV2.uml#_42D_EdCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CEnNCWEe2xQsZyR3Hhqw" name="isHeureHorsPlage">
+      <modelElement href="ParcMetreV2.uml#_42XhE9CWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEndCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48CEntCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEn9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42XhFdCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEoNCWEe2xQsZyR3Hhqw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEodCWEe2xQsZyR3Hhqw" name="date">
+        <modelElement href="ParcMetreV2.uml#_42XhFNCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEotCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEo9CWEe2xQsZyR3Hhqw" name="LocalDateTime">
+          <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48CEpNCWEe2xQsZyR3Hhqw" name="minuteRestantesPourJourSuivant">
+      <modelElement href="ParcMetreV2.uml#_42YIINCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48CEpdCWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_48CEptCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48CEp9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42YIItCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48CEqNCWEe2xQsZyR3Hhqw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48CEqdCWEe2xQsZyR3Hhqw" name="dateTime">
+        <modelElement href="ParcMetreV2.uml#_42YIIdCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48CEqtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48CEq9CWEe2xQsZyR3Hhqw" name="LocalDateTime">
+          <modelElement href="ParcMetreV2.uml#_41_GkNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_48bs0NCWEe2xQsZyR3Hhqw" name="Voiture" associationsIn="_48APANCWEe2xQsZyR3Hhqw">
+    <modelElement href="ParcMetreV2.uml#_40aZQNCWEe2xQsZyR3Hhqw"/>
+    <visualProperties xmi:id="_48bs0dCWEe2xQsZyR3Hhqw" position="-948.0,-216.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_48bs0tCWEe2xQsZyR3Hhqw" label="+"/>
+    <attributes xmi:id="_48bs09CWEe2xQsZyR3Hhqw" defaultValue="&quot;&quot;" name="plaqueImmatriculation">
+      <modelElement href="ParcMetreV2.uml#_42gD8NCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48bs1NCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48bs1dCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <type xmi:id="_48bs1tCWEe2xQsZyR3Hhqw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_48bs19CWEe2xQsZyR3Hhqw" name="Voiture">
+      <modelElement href="ParcMetreV2.uml#_40bAUNCWEe2xQsZyR3Hhqw"/>
+      <keywords xmi:id="_48bs2NCWEe2xQsZyR3Hhqw" keyword="create"/>
+      <visibility xmi:id="_48bs2dCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48bs2tCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48bs29CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40bAVNCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48bs3NCWEe2xQsZyR3Hhqw" name="Voiture">
+          <modelElement href="ParcMetreV2.uml#_40aZQNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48bs3dCWEe2xQsZyR3Hhqw" name="plaqueImma">
+        <modelElement href="ParcMetreV2.uml#_40bAUdCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48bs3tCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48bs39CWEe2xQsZyR3Hhqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_48bs4NCWEe2xQsZyR3Hhqw" name="isPlaqueValid">
+      <modelElement href="ParcMetreV2.uml#_40cOcNCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48bs4dCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48bs4tCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48bs49CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40cOctCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48bs5NCWEe2xQsZyR3Hhqw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_48bs5dCWEe2xQsZyR3Hhqw" name="immatriculation">
+        <modelElement href="ParcMetreV2.uml#_40cOcdCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48bs5tCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48bs59CWEe2xQsZyR3Hhqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4894UNCWEe2xQsZyR3Hhqw" name="Ticket" associationsOut="_48vO0NCWEe2xQsZyR3Hhqw">
+    <modelElement href="ParcMetreV2.uml#_40XV8NCWEe2xQsZyR3Hhqw"/>
+    <visualProperties xmi:id="_4894UdCWEe2xQsZyR3Hhqw" position="-338.0,448.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4894UtCWEe2xQsZyR3Hhqw" label="+"/>
+    <attributes xmi:id="_4894U9CWEe2xQsZyR3Hhqw" name="parcmetre">
+      <modelElement href="ParcMetreV2.uml#_42fc4NCWEe2xQsZyR3Hhqw"/>
+      <stereotypes xmi:id="_4894VNCWEe2xQsZyR3Hhqw" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV2.uml#_42fc4dCWEe2xQsZyR3Hhqw"/>
+      </stereotypes>
+      <visibility xmi:id="_4894VdCWEe2xQsZyR3Hhqw" label="-"/>
+      <cardinality xmi:id="_4894VtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <type xmi:id="_4894V9CWEe2xQsZyR3Hhqw" name="Parcmetre">
+        <modelElement href="ParcMetreV2.uml#_40KhoNCWEe2xQsZyR3Hhqw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4894WNCWEe2xQsZyR3Hhqw" name="text">
+      <modelElement href="ParcMetreV2.uml#_40YkENCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_4894WdCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_4894WtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4894W9CWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40ZLINCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_4894XNCWEe2xQsZyR3Hhqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4894XdCWEe2xQsZyR3Hhqw" name="Ticket">
+      <modelElement href="ParcMetreV2.uml#_42O-MdCWEe2xQsZyR3Hhqw"/>
+      <keywords xmi:id="_4894XtCWEe2xQsZyR3Hhqw" keyword="create"/>
+      <visibility xmi:id="_4894X9CWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_4894YNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4894YdCWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_42PlQ9CWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_4894YtCWEe2xQsZyR3Hhqw" name="Ticket">
+          <modelElement href="ParcMetreV2.uml#_40XV8NCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4894Y9CWEe2xQsZyR3Hhqw" name="parcmetre">
+        <modelElement href="ParcMetreV2.uml#_42PlQNCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_4894ZNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_4894ZdCWEe2xQsZyR3Hhqw" name="Parcmetre">
+          <modelElement href="ParcMetreV2.uml#_40KhoNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_48tZoNCWEe2xQsZyR3Hhqw" name="Imprimante">
+    <modelElement href="ParcMetreV2.uml#_40IFYNCWEe2xQsZyR3Hhqw"/>
+    <visualProperties xmi:id="_48tZodCWEe2xQsZyR3Hhqw" position="-1073.0,444.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_48tZotCWEe2xQsZyR3Hhqw" label="+"/>
+    <operations xmi:id="_48tZo9CWEe2xQsZyR3Hhqw" name="Imprimante">
+      <modelElement href="ParcMetreV2.uml#_40IscNCWEe2xQsZyR3Hhqw"/>
+      <keywords xmi:id="_48tZpNCWEe2xQsZyR3Hhqw" keyword="create"/>
+      <stereotypes xmi:id="_48tZpdCWEe2xQsZyR3Hhqw" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV2.uml#_40JTgtCWEe2xQsZyR3Hhqw"/>
+      </stereotypes>
+      <visibility xmi:id="_48tZptCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48tZp9CWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_48tZqNCWEe2xQsZyR3Hhqw">
+        <modelElement href="ParcMetreV2.uml#_40J6kNCWEe2xQsZyR3Hhqw"/>
+        <type xmi:id="_48tZqdCWEe2xQsZyR3Hhqw" name="Imprimante">
+          <modelElement href="ParcMetreV2.uml#_40IFYNCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_48tZqtCWEe2xQsZyR3Hhqw" name="imprimer">
+      <modelElement href="ParcMetreV2.uml#_42Bi0NCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_48tZq9CWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_48tZrNCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_48tZrdCWEe2xQsZyR3Hhqw" name="ticket">
+        <modelElement href="ParcMetreV2.uml#_42Bi0dCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_48tZrtCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+        <type xmi:id="_48tZr9CWEe2xQsZyR3Hhqw" name="Ticket">
+          <modelElement href="ParcMetreV2.uml#_40XV8NCWEe2xQsZyR3Hhqw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_47FpANCWEe2xQsZyR3Hhqw" name="App">
+    <modelElement href="ParcMetreV2.uml#_40Cl0NCWEe2xQsZyR3Hhqw"/>
+    <visualProperties xmi:id="_47FpAdCWEe2xQsZyR3Hhqw" position="-748.0,449.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_47FpAtCWEe2xQsZyR3Hhqw" label="+"/>
+    <operations xmi:id="_47FpA9CWEe2xQsZyR3Hhqw" name="main" staticOperation="true">
+      <modelElement href="ParcMetreV2.uml#_40GQMNCWEe2xQsZyR3Hhqw"/>
+      <visibility xmi:id="_47FpBNCWEe2xQsZyR3Hhqw" label="+"/>
+      <cardinality xmi:id="_47FpBdCWEe2xQsZyR3Hhqw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_47FpBtCWEe2xQsZyR3Hhqw" name="args">
+        <modelElement href="ParcMetreV2.uml#_40GQMdCWEe2xQsZyR3Hhqw"/>
+        <cardinality xmi:id="_47FpB9CWEe2xQsZyR3Hhqw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_47FpCNCWEe2xQsZyR3Hhqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

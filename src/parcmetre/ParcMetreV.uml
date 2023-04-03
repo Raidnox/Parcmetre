@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_HQQOoNAREe2-JvsY9seYUg" name="ParcMetreV">
+    <eAnnotations xmi:id="_HcsIINAREe2-JvsY9seYUg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_HcsIIdAREe2-JvsY9seYUg" source="codegen">
+        <details xmi:id="_HcsIItAREe2-JvsY9seYUg" key="codegenDirectory" value="/ParcMetreV/src"/>
+        <details xmi:id="_Hz7jcNAREe2-JvsY9seYUg" key="AssociatedSourceCode" value="/ParcMetreV/src/parcMetre/App.java;168110846/1;/ParcMetreV/src/parcMetre/Imprimante.java;18498064/1;/ParcMetreV/src/parcMetre/Parcmetre.java;3115256077/1;/ParcMetreV/src/parcMetre/Ticket.java;2477694117/1;/ParcMetreV/src/parcMetre/Voiture.java;3375371491/1;/ParcMetreV/src/testParcMetre/ParcmetreTest.java;3923758368/1;/ParcMetreV/src/testParcMetre/VoitureTest.java;2526389614/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Hnb_kNAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_HncmoNAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_HncmodAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_HncmotAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Hncmo9AREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_HncmpNAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_HndNsNAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_HndNsdAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Hnd0wNAREe2-JvsY9seYUg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HngRANAREe2-JvsY9seYUg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HngRAdAREe2-JvsY9seYUg" name="time">
+        <packagedElement xmi:type="uml:Package" xmi:id="_HnzL8NAREe2-JvsY9seYUg" name="format">
+          <packagedElement xmi:type="uml:Class" xmi:id="_HqmoUNAREe2-JvsY9seYUg" name="DateTimeFormatter"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HqZM8NAREe2-JvsY9seYUg" name="LocalDateTime"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_HqcQQNAREe2-JvsY9seYUg" name="DayOfWeek"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Hqc3UdAREe2-JvsY9seYUg" name="Duration"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HqeFcdAREe2-JvsY9seYUg" name="LocalDate"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HqfTkNAREe2-JvsY9seYUg" name="LocalTime"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_Hqf6odAREe2-JvsY9seYUg" name="Month"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HnnlwNAREe2-JvsY9seYUg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_HqhIwNAREe2-JvsY9seYUg" name="Arrays"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Hqhv0dAREe2-JvsY9seYUg" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HqvyQNAREe2-JvsY9seYUg" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_HqvyQdAREe2-JvsY9seYUg" name="Double"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Hq3uENAREe2-JvsY9seYUg" name="IllegalArgumentException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Hnj7YNAREe2-JvsY9seYUg" name="parcMetre">
+      <packagedElement xmi:type="uml:Class" xmi:id="_HoOCsNAREe2-JvsY9seYUg" name="App">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrMeMNAREe2-JvsY9seYUg" name="main" specification="_HoSUINAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrMeMdAREe2-JvsY9seYUg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HrMeMtAREe2-JvsY9seYUg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalDateTime now = LocalDateTime.of(2023, 3, 2, 18, 0);&#xD;
+		Voiture v = new Voiture(&quot;AX-141-XD&quot;);&#xD;
+		Parcmetre parc = new Parcmetre(v, 3.0, now);&#xD;
+		Ticket ticket = new Ticket(parc);&#xD;
+		Imprimante imprimante = new Imprimante();&#xD;
+		imprimante.imprimer(ticket);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HoSUINAREe2-JvsY9seYUg" name="main" isStatic="true" method="_HrMeMNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HoSUIdAREe2-JvsY9seYUg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HoUwYNAREe2-JvsY9seYUg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HoVXcNAREe2-JvsY9seYUg" name="Imprimante">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrRWsNAREe2-JvsY9seYUg" name="imprimer" specification="_HqbCIdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrRWsdAREe2-JvsY9seYUg" name="ticket" type="_Hol2INAREe2-JvsY9seYUg"/>
+          <language>java</language>
+          <body>System.out.println(&quot;impression du ticket \n\n&quot; + ticket.text() + &quot;\nBonne soiree&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HoV-gNAREe2-JvsY9seYUg" name="Imprimante">
+          <eAnnotations xmi:id="_HoWlkNAREe2-JvsY9seYUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_HoWlkdAREe2-JvsY9seYUg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_HoXModAREe2-JvsY9seYUg" type="_HoVXcNAREe2-JvsY9seYUg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HqbCIdAREe2-JvsY9seYUg" name="imprimer" method="_HrRWsNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HqbpMNAREe2-JvsY9seYUg" name="ticket" type="_Hol2INAREe2-JvsY9seYUg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HoYawNAREe2-JvsY9seYUg" name="Parcmetre">
+        <ownedAttribute xmi:id="_Hq_C0NAREe2-JvsY9seYUg" name="voiture" type="_HopggNAREe2-JvsY9seYUg" isReadOnly="true" association="_HrbHsNAREe2-JvsY9seYUg"/>
+        <ownedAttribute xmi:id="_Hq_p4NAREe2-JvsY9seYUg" name="sommePayee" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_HrAQ8dAREe2-JvsY9seYUg" name="dateEntree" type="_HqZM8NAREe2-JvsY9seYUg" isReadOnly="true" association="_HrcV0dAREe2-JvsY9seYUg"/>
+        <ownedAttribute xmi:id="_HrA4ANAREe2-JvsY9seYUg" name="MINUTE_PRICE_MIN" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HrA4AdAREe2-JvsY9seYUg" value="0.00833f"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_HrBfENAREe2-JvsY9seYUg" name="MINUTE_PRICE_MAX" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HrBfEdAREe2-JvsY9seYUg" value="0.05f"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_HrBfEtAREe2-JvsY9seYUg" name="ferie" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HrBfE9AREe2-JvsY9seYUg" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HrCGIdAREe2-JvsY9seYUg" value="new String[] {&quot;01/01&quot;,&quot;01/05&quot;,&quot;08/05&quot;,&quot;14/07&quot;,&quot;15/08&quot;,&quot;1/11&quot;,&quot;11/11&quot;,&quot;25/12&quot;}"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrSk0NAREe2-JvsY9seYUg" name="Parcmetre" specification="_HqxAYNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrSk0dAREe2-JvsY9seYUg" name="voiture" type="_HopggNAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrSk0tAREe2-JvsY9seYUg" name="sommePayee" type="_HqvyQdAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrSk09AREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrSk1NAREe2-JvsY9seYUg" type="_HoYawNAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(!isSommeValide(sommePayee)) {&#xD;
+			throw new IllegalArgumentException(&quot;La somme ne doit pas dépasser 14€&quot;);&#xD;
+		}&#xD;
+		this.voiture = voiture;&#xD;
+		this.sommePayee = sommePayee;&#xD;
+		this.dateEntree = date;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrSk1dAREe2-JvsY9seYUg" name="isSommeValide" specification="_HobeENAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrSk1tAREe2-JvsY9seYUg" name="somme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HrSk19AREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return somme &lt;= 14f;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrTL4NAREe2-JvsY9seYUg" name="calculerTemps" specification="_HocFIdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrTL4dAREe2-JvsY9seYUg" type="_HqZM8NAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalDateTime newDate = dateEntree.plusMinutes((int)calculNbMinute());&#xD;
+		int minutePourJourSuivant = minuteRestantesPourJourSuivant(dateEntree);&#xD;
+		if(minutePourJourSuivant >= calculNbMinute() &amp;&amp; dateIsOk(newDate)) {&#xD;
+			return newDate;&#xD;
+		}else {&#xD;
+			double nbMinuteAjouter = calculNbMinute();&#xD;
+			if(minutePourJourSuivant &lt; nbMinuteAjouter &amp;&amp; minutePourJourSuivant > 0) {&#xD;
+				nbMinuteAjouter -= minutePourJourSuivant;&#xD;
+			}&#xD;
+			while(!dateIsOk(newDate)) {&#xD;
+				newDate = addDay(newDate);&#xD;
+			}&#xD;
+			newDate = newDate.plusMinutes((int)nbMinuteAjouter);&#xD;
+		}&#xD;
+		return newDate;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrTL4tAREe2-JvsY9seYUg" name="addDay" specification="_HqyOgNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrTL49AREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrTL5NAREe2-JvsY9seYUg" type="_HqZM8NAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return date.plusDays(1).withHour(9).withMinute(0).withSecond(0).withNano(0);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrTL5dAREe2-JvsY9seYUg" name="dateIsOk" specification="_Hqy1kdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrTL5tAREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrTL59AREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return !isSunday(date.toLocalDate()) &amp;&amp; !isVaccance(date.toLocalDate()) &amp;&amp; !isFerie(String.format(&quot;%02d&quot;, date.getDayOfMonth()) + &quot;/&quot; + String.format(&quot;%02d&quot;, date.getMonthValue())) &amp;&amp; !isHeureHorsPlage(date);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrTy8NAREe2-JvsY9seYUg" name="isFerie" specification="_Hod6UNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrTy8dAREe2-JvsY9seYUg" name="date">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HrTy8tAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>List&lt;String> list = Arrays.asList(ferie);&#xD;
+		return list.contains(date);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrTy89AREe2-JvsY9seYUg" name="isSunday" specification="_HqzcotAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrTy9NAREe2-JvsY9seYUg" name="date" type="_HqeFcdAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrTy9dAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return date.getDayOfWeek() == DayOfWeek.SUNDAY;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrTy9tAREe2-JvsY9seYUg" name="isVaccance" specification="_Hq0DstAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrTy99AREe2-JvsY9seYUg" name="date" type="_HqeFcdAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrTy-NAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return date.getMonth() == Month.AUGUST &amp;&amp; date.getDayOfMonth() &lt;= 14;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrTy-dAREe2-JvsY9seYUg" name="isHeureHorsPlage" specification="_Hq0qwdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrTy-tAREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrTy-9AREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalTime heure = LocalTime.from(date);&#xD;
+	    return heure.isBefore(LocalTime.of(9, 0)) || heure.isAfter(LocalTime.of(19, 0));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrUaANAREe2-JvsY9seYUg" name="calculNbMinute" specification="_HofIcNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrUaAdAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>double nbMinute = 0.0f;&#xD;
+		if(sommePayee > 2) {&#xD;
+			nbMinute = 2 / Parcmetre.MINUTE_PRICE_MIN;&#xD;
+			nbMinute += (sommePayee - 2) / Parcmetre.MINUTE_PRICE_MAX;&#xD;
+		}else { &#xD;
+			nbMinute = sommePayee / Parcmetre.MINUTE_PRICE_MIN;&#xD;
+		}&#xD;
+		return Math.round(nbMinute);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrUaAtAREe2-JvsY9seYUg" name="minuteRestantesPourJourSuivant" specification="_Hq1R0dAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrUaA9AREe2-JvsY9seYUg" name="dateTime" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrUaBNAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalDateTime now = dateTime;&#xD;
+		LocalDateTime endOfDay = now.withHour(19).withMinute(0).withSecond(0).withNano(0);&#xD;
+		Duration duration = Duration.between(now, endOfDay);&#xD;
+		return (int) duration.toMinutes();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrUaBdAREe2-JvsY9seYUg" name="getSommePaye" specification="_HofvgdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrUaBtAREe2-JvsY9seYUg" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return sommePayee;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HobeENAREe2-JvsY9seYUg" name="isSommeValide" method="_HrSk1dAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HobeEdAREe2-JvsY9seYUg" name="somme">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HocFINAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HocFIdAREe2-JvsY9seYUg" name="calculerTemps" method="_HrTL4NAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_Hqxnc9AREe2-JvsY9seYUg" type="_HqZM8NAREe2-JvsY9seYUg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Hod6UNAREe2-JvsY9seYUg" name="isFerie" method="_HrTy8NAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HoehYNAREe2-JvsY9seYUg" name="date">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HoehYdAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HofIcNAREe2-JvsY9seYUg" name="calculNbMinute" method="_HrUaANAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HofvgNAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HofvgdAREe2-JvsY9seYUg" name="getSommePaye" method="_HrUaBdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HogWkNAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HqxAYNAREe2-JvsY9seYUg" name="Parcmetre" method="_HrSk0NAREe2-JvsY9seYUg">
+          <eAnnotations xmi:id="_HqxncNAREe2-JvsY9seYUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_HqxncdAREe2-JvsY9seYUg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_HqxAYdAREe2-JvsY9seYUg" name="voiture" type="_HopggNAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HqxAYtAREe2-JvsY9seYUg" name="sommePayee" type="_HqvyQdAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HqxAY9AREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HqxnctAREe2-JvsY9seYUg" type="_HoYawNAREe2-JvsY9seYUg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HqyOgNAREe2-JvsY9seYUg" name="addDay" visibility="public" method="_HrTL4tAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HqyOgdAREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_Hqy1kNAREe2-JvsY9seYUg" type="_HqZM8NAREe2-JvsY9seYUg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Hqy1kdAREe2-JvsY9seYUg" name="dateIsOk" visibility="private" method="_HrTL5dAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HqzcoNAREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HqzcodAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HqzcotAREe2-JvsY9seYUg" name="isSunday" method="_HrTy89AREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_Hq0DsNAREe2-JvsY9seYUg" name="date" type="_HqeFcdAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_Hq0DsdAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Hq0DstAREe2-JvsY9seYUg" name="isVaccance" method="_HrTy9tAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_Hq0Ds9AREe2-JvsY9seYUg" name="date" type="_HqeFcdAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_Hq0qwNAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Hq0qwdAREe2-JvsY9seYUg" name="isHeureHorsPlage" method="_HrTy-dAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_Hq0qwtAREe2-JvsY9seYUg" name="date" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_Hq1R0NAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Hq1R0dAREe2-JvsY9seYUg" name="minuteRestantesPourJourSuivant" visibility="private" method="_HrUaAtAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_Hq144NAREe2-JvsY9seYUg" name="dateTime" type="_HqZM8NAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_Hq144dAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Hol2INAREe2-JvsY9seYUg" name="Ticket">
+        <ownedAttribute xmi:id="_HrCtMdAREe2-JvsY9seYUg" name="parcmetre" visibility="private" type="_HoYawNAREe2-JvsY9seYUg" association="_Hrc84dAREe2-JvsY9seYUg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrUaB9AREe2-JvsY9seYUg" name="Ticket" specification="_Hqn2cdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrUaCNAREe2-JvsY9seYUg" name="parcmetre" type="_HoYawNAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_HrUaCdAREe2-JvsY9seYUg" type="_Hol2INAREe2-JvsY9seYUg" direction="return"/>
+          <language>java</language>
+          <body>this.parcmetre = parcmetre;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrVoINAREe2-JvsY9seYUg" name="text" specification="_HonEQNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrVoIdAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Voiture voiture = parcmetre.getVoiture();&#xD;
+ 	LocalDateTime dateSortie = parcmetre.calculerTemps();&#xD;
+ 	StringBuilder sb = new StringBuilder();&#xD;
+ 	sb.append(&quot;========== Ticket de parking ==========\n\n&quot;);&#xD;
+ 	sb.append(&quot;Date d'entree : &quot;);&#xD;
+ 	sb.append(parcmetre.getDateEntree());&#xD;
+ 	sb.append(&quot;\n&quot;);&#xD;
+ 	sb.append(&quot;Date de sortie : &quot;);&#xD;
+ 	sb.append(dateSortie);&#xD;
+ 	sb.append(&quot;\n&quot;);&#xD;
+ 	sb.append(&quot;Montant paye : &quot;);&#xD;
+ 	sb.append(parcmetre.getSommePaye());&#xD;
+ 	sb.append(&quot; €\n&quot;);&#xD;
+ 	sb.append(&quot;Temps de parking : &quot;);&#xD;
+ 	sb.append(parcmetre.calculNbMinute());&#xD;
+ 	sb.append(&quot; Minute(s)\n&quot;);&#xD;
+ 	sb.append(&quot;Votre vehicule : &quot;);&#xD;
+ 	sb.append(voiture.getPlaqueImmatriculation());&#xD;
+ 	sb.append(&quot;\n\n&quot;);&#xD;
+ 	sb.append(&quot;Ticket a conserver merci ! \n&quot;);&#xD;
+ 	sb.append(&quot;======================================\n&quot;);&#xD;
+ 	return sb.toString();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HonEQNAREe2-JvsY9seYUg" name="text" method="_HrVoINAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HonrUNAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Hqn2cdAREe2-JvsY9seYUg" name="Ticket" method="_HrUaB9AREe2-JvsY9seYUg">
+          <eAnnotations xmi:id="_HqodgdAREe2-JvsY9seYUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_HqodgtAREe2-JvsY9seYUg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_HqodgNAREe2-JvsY9seYUg" name="parcmetre" type="_HoYawNAREe2-JvsY9seYUg"/>
+          <ownedParameter xmi:id="_Hqodg9AREe2-JvsY9seYUg" type="_Hol2INAREe2-JvsY9seYUg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HopggNAREe2-JvsY9seYUg" name="Voiture">
+        <ownedAttribute xmi:id="_HrDUQdAREe2-JvsY9seYUg" name="plaqueImmatriculation" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HrD7UNAREe2-JvsY9seYUg" value="&quot;&quot;"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrVoItAREe2-JvsY9seYUg" name="Voiture" specification="_HoquoNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrVoI9AREe2-JvsY9seYUg" name="plaqueImma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HrVoJNAREe2-JvsY9seYUg" type="_HopggNAREe2-JvsY9seYUg" direction="return"/>
+          <language>java</language>
+          <body>if(!isPlaqueValid(plaqueImma)) {&#xD;
+			throw new IllegalArgumentException(&quot;Plaque d'immatriculation non valide&quot;);&#xD;
+		}&#xD;
+		plaqueImmatriculation = plaqueImma;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrVoJdAREe2-JvsY9seYUg" name="isPlaqueValid" specification="_Hor8wNAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_HrVoJtAREe2-JvsY9seYUg" name="immatriculation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HrVoJ9AREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String regex = &quot;^[A-Z]{2}-\\d{3}-[A-Z]{2}$&quot;;&#xD;
+		 return immatriculation.matches(regex);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HoquoNAREe2-JvsY9seYUg" name="Voiture" method="_HrVoItAREe2-JvsY9seYUg" raisedException="_Hq3uENAREe2-JvsY9seYUg">
+          <eAnnotations xmi:id="_HoquotAREe2-JvsY9seYUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Hoquo9AREe2-JvsY9seYUg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_HoquodAREe2-JvsY9seYUg" name="plaqueImma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HoqupNAREe2-JvsY9seYUg" type="_HopggNAREe2-JvsY9seYUg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Hor8wNAREe2-JvsY9seYUg" name="isPlaqueValid" method="_HrVoJdAREe2-JvsY9seYUg">
+          <ownedParameter xmi:id="_Hor8wdAREe2-JvsY9seYUg" name="immatriculation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Hor8wtAREe2-JvsY9seYUg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_HrbHsNAREe2-JvsY9seYUg" name="" memberEnd="_HrbHsdAREe2-JvsY9seYUg _Hq_C0NAREe2-JvsY9seYUg">
+        <ownedEnd xmi:id="_HrbHsdAREe2-JvsY9seYUg" name="" type="_HoYawNAREe2-JvsY9seYUg" association="_HrbHsNAREe2-JvsY9seYUg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_HrcV0dAREe2-JvsY9seYUg" name="" memberEnd="_HrcV0tAREe2-JvsY9seYUg _HrAQ8dAREe2-JvsY9seYUg">
+        <ownedEnd xmi:id="_HrcV0tAREe2-JvsY9seYUg" name="" type="_HoYawNAREe2-JvsY9seYUg" association="_HrcV0dAREe2-JvsY9seYUg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Hrc84dAREe2-JvsY9seYUg" name="" memberEnd="_Hrc84tAREe2-JvsY9seYUg _HrCtMdAREe2-JvsY9seYUg">
+        <ownedEnd xmi:id="_Hrc84tAREe2-JvsY9seYUg" name="" type="_Hol2INAREe2-JvsY9seYUg" association="_Hrc84dAREe2-JvsY9seYUg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Hn3dYNAREe2-JvsY9seYUg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Hn4EcNAREe2-JvsY9seYUg" name="junit">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_HqpEkNAREe2-JvsY9seYUg" name="Before"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_HqqSsdAREe2-JvsY9seYUg" name="Test"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Hqrg0NAREe2-JvsY9seYUg" name="Assert"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Hn7u0NAREe2-JvsY9seYUg" name="testParcMetre">
+      <packagedElement xmi:type="uml:Class" xmi:id="_HotK4NAREe2-JvsY9seYUg" name="ParcmetreTest">
+        <ownedAttribute xmi:id="_HrD7UdAREe2-JvsY9seYUg" name="parcmetre" visibility="private" type="_HoYawNAREe2-JvsY9seYUg" association="_HreLANAREe2-JvsY9seYUg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrWPMNAREe2-JvsY9seYUg" name="setup" specification="_HouZANAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>Voiture voiture = new Voiture(&quot;AB-123-CD&quot;);&#xD;
+     double sommePayee = 2.0;&#xD;
+     LocalDateTime dateEntree = LocalDateTime.of(2023, 3, 31, 10, 0, 0);&#xD;
+     parcmetre = new Parcmetre(voiture, sommePayee, dateEntree);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrWPMdAREe2-JvsY9seYUg" name="testCalculerTemps" specification="_How1QNAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>LocalDateTime expectedDateSortie = LocalDateTime.of(2023, 3, 31, 14, 0, 0);&#xD;
+     assertEquals(expectedDateSortie, parcmetre.calculerTemps());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrWPMtAREe2-JvsY9seYUg" name="testIsFerie" specification="_HoxcUtAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>assertTrue(parcmetre.isFerie(&quot;01/01&quot;));&#xD;
+     assertFalse(parcmetre.isFerie(&quot;31/12&quot;));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrWPM9AREe2-JvsY9seYUg" name="testIsSunday" specification="_HoyqctAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>assertFalse(parcmetre.isSunday(LocalDateTime.of(2023, 3, 31, 10, 0, 0).toLocalDate()));&#xD;
+     assertTrue(parcmetre.isSunday(LocalDateTime.of(2023, 4, 2, 10, 0, 0).toLocalDate()));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrWPNNAREe2-JvsY9seYUg" name="testIsVaccance" specification="_Hoz4kdAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>assertTrue(parcmetre.isVaccance(LocalDateTime.of(2023, 8, 14, 10, 0, 0).toLocalDate()));&#xD;
+     assertFalse(parcmetre.isVaccance(LocalDateTime.of(2023, 8, 15, 10, 0, 0).toLocalDate()));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrWPNdAREe2-JvsY9seYUg" name="testIsHeureHorsPlage" specification="_Ho0fotAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>assertFalse(parcmetre.isHeureHorsPlage(LocalDateTime.of(2023, 3, 31, 10, 0, 0)));&#xD;
+     assertTrue(parcmetre.isHeureHorsPlage(LocalDateTime.of(2023, 3, 31, 8, 0, 0)));&#xD;
+     assertTrue(parcmetre.isHeureHorsPlage(LocalDateTime.of(2023, 3, 31, 20, 0, 0)));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrWPNtAREe2-JvsY9seYUg" name="testCalculNbMinute" specification="_Ho1twtAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>double expectedNbMinute = 240.0;&#xD;
+     assertEquals(expectedNbMinute, parcmetre.calculNbMinute(), 0.01);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GB5vsNASEe2-JvsY9seYUg" name="testSommePayeeTropElevee" specification="_8CRd0NAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>Voiture voiture = new Voiture(&quot;AB-123-CD&quot;);&#xD;
+     double sommePayee = 15.0;&#xD;
+     LocalDateTime dateEntree = LocalDateTime.of(2023, 3, 31, 10, 0, 0);&#xD;
+ 	parcmetre = new Parcmetre(voiture, sommePayee, dateEntree);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ktU7MNASEe2-JvsY9seYUg" name="testSommePayeeCorrect" specification="_eq2bYNASEe2-JvsY9seYUg">
+          <language>java</language>
+          <body>assertTrue(parcmetre.isSommeValide(12));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xxcRwNASEe2-JvsY9seYUg" name="testGetVoiture" specification="_vR7iYNASEe2-JvsY9seYUg">
+          <language>java</language>
+          <body>Voiture voiture = new Voiture(&quot;AB-123-CD&quot;);&#xD;
+ 	assertEquals(voiture.getPlaqueImmatriculation(), parcmetre.getVoiture().getPlaqueImmatriculation());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-SQG8NASEe2-JvsY9seYUg" name="testGetDateEntree" specification="_9NsSoNASEe2-JvsY9seYUg">
+          <language>java</language>
+          <body>LocalDateTime dateEntree = LocalDateTime.of(2023, 3, 31, 10, 0, 0);&#xD;
+ 	 assertEquals(dateEntree, parcmetre.getDateEntree());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_N90n8NATEe2-JvsY9seYUg" name="testGetSommePaye" specification="_NEdXANATEe2-JvsY9seYUg">
+          <language>java</language>
+          <body>double sommePayee = 2.0;&#xD;
+ 	assertEquals( (int) sommePayee, (int) parcmetre.getSommePaye());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wH1aMNATEe2-JvsY9seYUg" name="testCalculeNbMinuteSupérieurADeux" specification="_wHy98NATEe2-JvsY9seYUg">
+          <language>java</language>
+          <body>Voiture voiture = new Voiture(&quot;AB-123-CD&quot;);&#xD;
+     double sommePayee = 3.0;&#xD;
+     double expectedNbMinute = 260.00;&#xD;
+     LocalDateTime dateEntree = LocalDateTime.of(2023, 3, 31, 10, 0, 0);&#xD;
+     parcmetre = new Parcmetre(voiture, sommePayee, dateEntree);&#xD;
+     assertEquals(expectedNbMinute, parcmetre.calculNbMinute(), 0.01);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_skh2ENAUEe2-JvsY9seYUg" name="testAddDay" specification="_ostP8NAUEe2-JvsY9seYUg">
+          <language>java</language>
+          <body>LocalDateTime dateEntree = LocalDateTime.of(2023, 3, 31, 10, 0, 0);&#xD;
+ 	 LocalDateTime dateexpected = LocalDateTime.of(2023, 4, 1, 9, 0, 0);&#xD;
+ 	 assertEquals(dateexpected, parcmetre.addDay(dateEntree));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_XaedsNAVEe2-JvsY9seYUg" name="testDemainIsdimanche" specification="_WKte8NAVEe2-JvsY9seYUg">
+          <language>java</language>
+          <body>Voiture voiture = new Voiture(&quot;AB-123-CD&quot;);&#xD;
+      double sommePayee = 3.0;&#xD;
+      LocalDateTime dateEntree = LocalDateTime.of(2023, 4, 1, 16, 0, 0);&#xD;
+      LocalDateTime dateexpected = LocalDateTime.of(2023, 4, 3, 10, 20, 0);&#xD;
+      parcmetre = new Parcmetre(voiture, sommePayee, dateEntree);&#xD;
+      assertEquals(dateexpected,parcmetre.calculerTemps());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HouZANAREe2-JvsY9seYUg" name="setup" method="_HrWPMNAREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_How1QNAREe2-JvsY9seYUg" name="testCalculerTemps" method="_HrWPMdAREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_HoxcUtAREe2-JvsY9seYUg" name="testIsFerie" method="_HrWPMtAREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_HoyqctAREe2-JvsY9seYUg" name="testIsSunday" method="_HrWPM9AREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_Hoz4kdAREe2-JvsY9seYUg" name="testIsVaccance" method="_HrWPNNAREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_Ho0fotAREe2-JvsY9seYUg" name="testIsHeureHorsPlage" method="_HrWPNdAREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_Ho1twtAREe2-JvsY9seYUg" name="testCalculNbMinute" method="_HrWPNtAREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_8CRd0NAREe2-JvsY9seYUg" name="testSommePayeeTropElevee" method="_GB5vsNASEe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_eq2bYNASEe2-JvsY9seYUg" name="testSommePayeeCorrect" method="_ktU7MNASEe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_vR7iYNASEe2-JvsY9seYUg" name="testGetVoiture" method="_xxcRwNASEe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_9NsSoNASEe2-JvsY9seYUg" name="testGetDateEntree" method="_-SQG8NASEe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_NEdXANATEe2-JvsY9seYUg" name="testGetSommePaye" method="_N90n8NATEe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_wHy98NATEe2-JvsY9seYUg" name="testCalculeNbMinuteSupérieurADeux" method="_wH1aMNATEe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_ostP8NAUEe2-JvsY9seYUg" name="testAddDay" method="_skh2ENAUEe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_WKte8NAVEe2-JvsY9seYUg" name="testDemainIsdimanche" method="_XaedsNAVEe2-JvsY9seYUg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ho3i8NAREe2-JvsY9seYUg" name="VoitureTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrW2QNAREe2-JvsY9seYUg" name="testConstructorWithInvalidPlaque" specification="_Ho4KANAREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>Voiture v = new Voiture(&quot;1X-123-YY&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_HrW2QdAREe2-JvsY9seYUg" name="testConstructorWithValidPlaque" specification="_Ho4xE9AREe2-JvsY9seYUg">
+          <language>java</language>
+          <body>Voiture v = new Voiture(&quot;AB-123-CD&quot;);&#xD;
+     assertEquals(&quot;AB-123-CD&quot;, v.getPlaqueImmatriculation());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Ho4KANAREe2-JvsY9seYUg" name="testConstructorWithInvalidPlaque" method="_HrW2QNAREe2-JvsY9seYUg"/>
+        <ownedOperation xmi:id="_Ho4xE9AREe2-JvsY9seYUg" name="testConstructorWithValidPlaque" method="_HrW2QdAREe2-JvsY9seYUg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_HreLANAREe2-JvsY9seYUg" name="" memberEnd="_HreLAdAREe2-JvsY9seYUg _HrD7UdAREe2-JvsY9seYUg">
+        <ownedEnd xmi:id="_HreLAdAREe2-JvsY9seYUg" name="" type="_HotK4NAREe2-JvsY9seYUg" association="_HreLANAREe2-JvsY9seYUg"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_HcukYNAREe2-JvsY9seYUg">
+      <eAnnotations xmi:id="_HcyOwNAREe2-JvsY9seYUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Hc3uUNAREe2-JvsY9seYUg" base_Package="_HQQOoNAREe2-JvsY9seYUg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HoXMoNAREe2-JvsY9seYUg" base_Element="_HoV-gNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HovAENAREe2-JvsY9seYUg" base_Element="_HouZANAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_HowOMNAREe2-JvsY9seYUg" base_Element="_HouZANAREe2-JvsY9seYUg">
+    <annotations xmi:id="_HowOMdAREe2-JvsY9seYUg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_How1QdAREe2-JvsY9seYUg" base_Element="_How1QNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_HoxcUNAREe2-JvsY9seYUg" base_Element="_How1QNAREe2-JvsY9seYUg">
+    <annotations xmi:id="_HoxcUdAREe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HoyDYNAREe2-JvsY9seYUg" base_Element="_HoxcUtAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_HoyqcNAREe2-JvsY9seYUg" base_Element="_HoxcUtAREe2-JvsY9seYUg">
+    <annotations xmi:id="_HoyqcdAREe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HozRgNAREe2-JvsY9seYUg" base_Element="_HoyqctAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_HozRgdAREe2-JvsY9seYUg" base_Element="_HoyqctAREe2-JvsY9seYUg">
+    <annotations xmi:id="_Hoz4kNAREe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Hoz4ktAREe2-JvsY9seYUg" base_Element="_Hoz4kdAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_Ho0foNAREe2-JvsY9seYUg" base_Element="_Hoz4kdAREe2-JvsY9seYUg">
+    <annotations xmi:id="_Ho0fodAREe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ho1GsNAREe2-JvsY9seYUg" base_Element="_Ho0fotAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_Ho1twNAREe2-JvsY9seYUg" base_Element="_Ho0fotAREe2-JvsY9seYUg">
+    <annotations xmi:id="_Ho1twdAREe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ho2U0NAREe2-JvsY9seYUg" base_Element="_Ho1twtAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_Ho2U0dAREe2-JvsY9seYUg" base_Element="_Ho1twtAREe2-JvsY9seYUg">
+    <annotations xmi:id="_Ho2U0tAREe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ho4KAdAREe2-JvsY9seYUg" base_Element="_Ho4KANAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_Ho4xENAREe2-JvsY9seYUg" base_Element="_Ho4KANAREe2-JvsY9seYUg">
+    <annotations xmi:id="_Ho4xEdAREe2-JvsY9seYUg" name="Test">
+      <annotationParameters xmi:id="_Ho4xEtAREe2-JvsY9seYUg" name="expected" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_HrXdUNAREe2-JvsY9seYUg" value="IllegalArgumentException.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ho5YINAREe2-JvsY9seYUg" base_Element="_Ho4xE9AREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_Ho5YIdAREe2-JvsY9seYUg" base_Element="_Ho4xE9AREe2-JvsY9seYUg">
+    <annotations xmi:id="_Ho5YItAREe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_HqbCINAREe2-JvsY9seYUg" base_Element="_HqZM8NAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hqc3UNAREe2-JvsY9seYUg" base_Element="_HqcQQNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HqeFcNAREe2-JvsY9seYUg" base_Element="_Hqc3UdAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HqesgNAREe2-JvsY9seYUg" base_Element="_HqeFcdAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hqf6oNAREe2-JvsY9seYUg" base_Element="_HqfTkNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HqghsNAREe2-JvsY9seYUg" base_Element="_Hqf6odAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hqhv0NAREe2-JvsY9seYUg" base_Element="_HqhIwNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HqiW4NAREe2-JvsY9seYUg" base_Element="_Hqhv0dAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hqn2cNAREe2-JvsY9seYUg" base_Element="_HqmoUNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HqqSsNAREe2-JvsY9seYUg" base_Element="_HqpEkNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hqq5wNAREe2-JvsY9seYUg" base_Element="_HqqSsdAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HqsH4NAREe2-JvsY9seYUg" base_Element="_Hqrg0NAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HqwZUNAREe2-JvsY9seYUg" base_Element="_HqvyQdAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hq48MNAREe2-JvsY9seYUg" base_Element="_Hq3uENAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HrAQ8NAREe2-JvsY9seYUg" base_Element="_Hq_p4NAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Array xmi:id="_HrCGINAREe2-JvsY9seYUg" base_Element="_HrBfEtAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HrCtMNAREe2-JvsY9seYUg" base_Element="_HrBfEtAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HrDUQNAREe2-JvsY9seYUg" base_Element="_HrCtMdAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_HrD7UtAREe2-JvsY9seYUg" base_Element="_HrD7UdAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HrcV0NAREe2-JvsY9seYUg" base_Element="_HrbHsNAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hrc84NAREe2-JvsY9seYUg" base_Element="_HrcV0dAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_Hrdj8NAREe2-JvsY9seYUg" base_Element="_Hrc84dAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Reference xmi:id="_HreyENAREe2-JvsY9seYUg" base_Element="_HreLANAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_8CSE4NAREe2-JvsY9seYUg" base_Element="_8CRd0NAREe2-JvsY9seYUg">
+    <annotations xmi:id="_8CSE4dAREe2-JvsY9seYUg" name="Test">
+      <annotationParameters xmi:id="_-jA8QNAREe2-JvsY9seYUg" name="expected" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Y-wecNAWEe2-JvsY9seYUg" value="IllegalArgumentException.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_8CSr8NAREe2-JvsY9seYUg" base_Element="_8CRd0NAREe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_eq3CcNASEe2-JvsY9seYUg" base_Element="_eq2bYNASEe2-JvsY9seYUg">
+    <annotations xmi:id="_eq3CcdASEe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_eq3CctASEe2-JvsY9seYUg" base_Element="_eq2bYNASEe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_vR7iYdASEe2-JvsY9seYUg" base_Element="_vR7iYNASEe2-JvsY9seYUg">
+    <annotations xmi:id="_vR8JcNASEe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_vR8JcdASEe2-JvsY9seYUg" base_Element="_vR7iYNASEe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_9Ns5sNASEe2-JvsY9seYUg" base_Element="_9NsSoNASEe2-JvsY9seYUg">
+    <annotations xmi:id="_9Ns5sdASEe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9Ns5stASEe2-JvsY9seYUg" base_Element="_9NsSoNASEe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_NEd-ENATEe2-JvsY9seYUg" base_Element="_NEdXANATEe2-JvsY9seYUg">
+    <annotations xmi:id="_NEd-EdATEe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NEelINATEe2-JvsY9seYUg" base_Element="_NEdXANATEe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_wHy98dATEe2-JvsY9seYUg" base_Element="_wHy98NATEe2-JvsY9seYUg">
+    <annotations xmi:id="_wHy98tATEe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wHzlANATEe2-JvsY9seYUg" base_Element="_wHy98NATEe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_ostP8dAUEe2-JvsY9seYUg" base_Element="_ostP8NAUEe2-JvsY9seYUg">
+    <annotations xmi:id="_ostP8tAUEe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ost3ANAUEe2-JvsY9seYUg" base_Element="_ostP8NAUEe2-JvsY9seYUg"/>
+  <UMLLabProfile:Annotations xmi:id="_WKte8dAVEe2-JvsY9seYUg" base_Element="_WKte8NAVEe2-JvsY9seYUg">
+    <annotations xmi:id="_WKte8tAVEe2-JvsY9seYUg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WKte89AVEe2-JvsY9seYUg" base_Element="_WKte8NAVEe2-JvsY9seYUg"/>
+</xmi:XMI>

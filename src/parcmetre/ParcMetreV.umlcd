@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_HSiGkNAREe2-JvsY9seYUg">
+  <modelElement href="ParcMetreV.uml#_HQQOoNAREe2-JvsY9seYUg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_H1QZINAREe2-JvsY9seYUg" sourceAnchor="311.0,0.0" targetAnchor="190.0,116.0" target="_H0MpMNAREe2-JvsY9seYUg" source="_H1ZjGNAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_HrbHsNAREe2-JvsY9seYUg"/>
+    <stereotypes xmi:id="_H1S1YtAREe2-JvsY9seYUg" name="Reference">
+      <modelElement href="ParcMetreV.uml#_HrcV0NAREe2-JvsY9seYUg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_H1SOUNAREe2-JvsY9seYUg" text="">
+      <visualProperties xmi:id="_H7-FINAREe2-JvsY9seYUg" position="-13.0,-25.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_H1S1YNAREe2-JvsY9seYUg" aggregationKind="NONE" name="">
+      <modelElement href="ParcMetreV.uml#_HrbHsdAREe2-JvsY9seYUg"/>
+      <visualProperties xmi:id="_H78P8NAREe2-JvsY9seYUg" position="3.0,-75.0"/>
+      <visibility xmi:id="_H1Xt4NAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1XG0NAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_H1S1YdAREe2-JvsY9seYUg" aggregationKind="NONE" name="voiture" navigable="true">
+      <modelElement href="ParcMetreV.uml#_Hq_C0NAREe2-JvsY9seYUg"/>
+      <visualProperties xmi:id="_H7-sMNAREe2-JvsY9seYUg" position="-20.0,-17.0"/>
+      <visibility xmi:id="_H1Xt4tAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1Xt4dAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_H1Y8ANAREe2-JvsY9seYUg" source="_H1ZjGNAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_HrcV0dAREe2-JvsY9seYUg"/>
+    <stereotypes xmi:id="_H1ZjENAREe2-JvsY9seYUg" name="Reference">
+      <modelElement href="ParcMetreV.uml#_Hrc84NAREe2-JvsY9seYUg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_H1ZjEdAREe2-JvsY9seYUg" text=""/>
+    <sourceRole xmi:id="_H1ZjEtAREe2-JvsY9seYUg" aggregationKind="NONE" name="">
+      <modelElement href="ParcMetreV.uml#_HrcV0tAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjE9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjFNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_H1ZjFdAREe2-JvsY9seYUg" aggregationKind="NONE" name="dateEntree" navigable="true">
+      <modelElement href="ParcMetreV.uml#_HrAQ8dAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjFtAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjF9AREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_H17ukNAREe2-JvsY9seYUg" sourceAnchor="0.0,41.0" targetAnchor="311.0,439.0" target="_H1ZjGNAREe2-JvsY9seYUg" source="_H2AAANAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_Hrc84dAREe2-JvsY9seYUg"/>
+    <bendpoints xmi:id="_OkOLgNAREe2-JvsY9seYUg" sourceX="-347" sourceY="-3" targetX="1" targetY="341"/>
+    <stereotypes xmi:id="_H19jwdAREe2-JvsY9seYUg" name="Reference">
+      <modelElement href="ParcMetreV.uml#_Hrdj8NAREe2-JvsY9seYUg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_H188sNAREe2-JvsY9seYUg" text="">
+      <visualProperties xmi:id="_H7_TQdAREe2-JvsY9seYUg" position="235.0,-4.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_H188sdAREe2-JvsY9seYUg" aggregationKind="NONE" name="">
+      <modelElement href="ParcMetreV.uml#_Hrc84tAREe2-JvsY9seYUg"/>
+      <visualProperties xmi:id="_H7_TQNAREe2-JvsY9seYUg" position="-61.0,-17.0"/>
+      <visibility xmi:id="_H1-x4dAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1-x4NAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_H19jwNAREe2-JvsY9seYUg" aggregationKind="NONE" name="parcmetre" navigable="true">
+      <modelElement href="ParcMetreV.uml#_HrCtMdAREe2-JvsY9seYUg"/>
+      <visualProperties xmi:id="_H7_TQtAREe2-JvsY9seYUg" position="183.0,330.0"/>
+      <visibility xmi:id="_H1-x49AREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H1-x4tAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_H2KYENAREe2-JvsY9seYUg" sourceAnchor="0.0,37.0" targetAnchor="627.0,423.0" target="_H1ZjGNAREe2-JvsY9seYUg" source="_H2M0UNAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_HreLANAREe2-JvsY9seYUg"/>
+    <stereotypes xmi:id="_H2K_I9AREe2-JvsY9seYUg" name="Reference">
+      <modelElement href="ParcMetreV.uml#_HreyENAREe2-JvsY9seYUg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_H2K_INAREe2-JvsY9seYUg" text="">
+      <visualProperties xmi:id="_H8BIcNAREe2-JvsY9seYUg" position="-20.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_H2K_IdAREe2-JvsY9seYUg" aggregationKind="NONE" name="">
+      <modelElement href="ParcMetreV.uml#_HreLAdAREe2-JvsY9seYUg"/>
+      <visualProperties xmi:id="_H7_6UNAREe2-JvsY9seYUg" position="-31.88461538461536,2.0"/>
+      <visibility xmi:id="_H2MNQdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2MNQNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_H2K_ItAREe2-JvsY9seYUg" aggregationKind="NONE" name="parcmetre" navigable="true">
+      <modelElement href="ParcMetreV.uml#_HrD7UdAREe2-JvsY9seYUg"/>
+      <visualProperties xmi:id="_H8BIcdAREe2-JvsY9seYUg" position="64.79999999999995,-56.999999999999886"/>
+      <visibility xmi:id="_H2MNQ9AREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H2MNQtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H0MpMNAREe2-JvsY9seYUg" name="Voiture" associationsIn="_H1QZINAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_HopggNAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H0MpMdAREe2-JvsY9seYUg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_H0MpMtAREe2-JvsY9seYUg" label="+"/>
+    <attributes xmi:id="_H0MpM9AREe2-JvsY9seYUg" defaultValue="&quot;&quot;" name="plaqueImmatriculation">
+      <modelElement href="ParcMetreV.uml#_HrDUQdAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H0MpNNAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H0MpNdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H0MpNtAREe2-JvsY9seYUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_H0MpN9AREe2-JvsY9seYUg" name="Voiture">
+      <modelElement href="ParcMetreV.uml#_HoquoNAREe2-JvsY9seYUg"/>
+      <keywords xmi:id="_H0MpONAREe2-JvsY9seYUg" keyword="create"/>
+      <visibility xmi:id="_H0MpOdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H0MpOtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H0MpO9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HoqupNAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H0MpPNAREe2-JvsY9seYUg" name="Voiture">
+          <modelElement href="ParcMetreV.uml#_HopggNAREe2-JvsY9seYUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H0MpPdAREe2-JvsY9seYUg" name="plaqueImma">
+        <modelElement href="ParcMetreV.uml#_HoquodAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H0MpPtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H0MpP9AREe2-JvsY9seYUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H0MpQNAREe2-JvsY9seYUg" name="isPlaqueValid">
+      <modelElement href="ParcMetreV.uml#_Hor8wNAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H0MpQdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H0MpQtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H0MpQ9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hor8wtAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H0MpRNAREe2-JvsY9seYUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H0MpRdAREe2-JvsY9seYUg" name="immatriculation">
+        <modelElement href="ParcMetreV.uml#_Hor8wdAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H0MpRtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H0MpR9AREe2-JvsY9seYUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H1MHsNAREe2-JvsY9seYUg" name="IllegalArgumentException">
+    <modelElement href="ParcMetreV.uml#_Hq3uENAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H1MHsdAREe2-JvsY9seYUg" position="626.0,364.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_H1MHstAREe2-JvsY9seYUg" name="Reference">
+      <modelElement href="ParcMetreV.uml#_Hq48MNAREe2-JvsY9seYUg"/>
+    </stereotypes>
+    <visibility xmi:id="_H1MHs9AREe2-JvsY9seYUg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H1ZjGNAREe2-JvsY9seYUg" name="Parcmetre" associationsIn="_H17ukNAREe2-JvsY9seYUg _H2KYENAREe2-JvsY9seYUg" associationsOut="_H1QZINAREe2-JvsY9seYUg _H1Y8ANAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_HoYawNAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H1ZjGdAREe2-JvsY9seYUg" position="-91.0,201.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_H1ZjGtAREe2-JvsY9seYUg" label="+"/>
+    <attributes xmi:id="_H1ZjG9AREe2-JvsY9seYUg" name="voiture">
+      <modelElement href="ParcMetreV.uml#_Hq_C0NAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjHNAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjHdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H1ZjHtAREe2-JvsY9seYUg" name="Voiture">
+        <modelElement href="ParcMetreV.uml#_HopggNAREe2-JvsY9seYUg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_H1ZjH9AREe2-JvsY9seYUg" name="sommePayee">
+      <modelElement href="ParcMetreV.uml#_Hq_p4NAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H1ZjINAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HrAQ8NAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H1ZjIdAREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H1ZjItAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H1ZjI9AREe2-JvsY9seYUg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_H1ZjJNAREe2-JvsY9seYUg" name="dateEntree">
+      <modelElement href="ParcMetreV.uml#_HrAQ8dAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjJdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjJtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H1ZjJ9AREe2-JvsY9seYUg" name="LocalDateTime">
+        <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_H1ZjKNAREe2-JvsY9seYUg" defaultValue="0.00833f" name="MINUTE_PRICE_MIN" staticAttribute="true">
+      <modelElement href="ParcMetreV.uml#_HrA4ANAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjKdAREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H1ZjKtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H1ZjK9AREe2-JvsY9seYUg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_H1ZjLNAREe2-JvsY9seYUg" defaultValue="0.05f" name="MINUTE_PRICE_MAX" staticAttribute="true">
+      <modelElement href="ParcMetreV.uml#_HrBfENAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjLdAREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H1ZjLtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H1ZjL9AREe2-JvsY9seYUg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_H1ZjMNAREe2-JvsY9seYUg" defaultValue="new String[] {&quot;01/01&quot;,&quot;01/05&quot;,&quot;08/05&quot;,&quot;14/07&quot;,&quot;15/08&quot;,&quot;1/11&quot;,&quot;11/11&quot;,&quot;25/12&quot;}" name="ferie">
+      <modelElement href="ParcMetreV.uml#_HrBfEtAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H1ZjMdAREe2-JvsY9seYUg" name="Array">
+        <modelElement href="ParcMetreV.uml#_HrCGINAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H1ZjMtAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HrCtMNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H1ZjM9AREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H1ZjNNAREe2-JvsY9seYUg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_H1ZjNdAREe2-JvsY9seYUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_H1ZjNtAREe2-JvsY9seYUg" name="isSommeValide">
+      <modelElement href="ParcMetreV.uml#_HobeENAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjN9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjONAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1ZjOdAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HocFINAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1ZjOtAREe2-JvsY9seYUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1ZjO9AREe2-JvsY9seYUg" name="somme">
+        <modelElement href="ParcMetreV.uml#_HobeEdAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1ZjPNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1ZjPdAREe2-JvsY9seYUg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1ZjPtAREe2-JvsY9seYUg" name="calculerTemps">
+      <modelElement href="ParcMetreV.uml#_HocFIdAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjP9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjQNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1ZjQdAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hqxnc9AREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1ZjQtAREe2-JvsY9seYUg" name="LocalDateTime">
+          <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_H1ZjQ9AREe2-JvsY9seYUg" name="isFerie">
+      <modelElement href="ParcMetreV.uml#_Hod6UNAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjRNAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjRdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1ZjRtAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HoehYdAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1ZjR9AREe2-JvsY9seYUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1ZjSNAREe2-JvsY9seYUg" name="date">
+        <modelElement href="ParcMetreV.uml#_HoehYNAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1ZjSdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1ZjStAREe2-JvsY9seYUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1ZjS9AREe2-JvsY9seYUg" name="calculNbMinute">
+      <modelElement href="ParcMetreV.uml#_HofIcNAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjTNAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjTdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1ZjTtAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HofvgNAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1ZjT9AREe2-JvsY9seYUg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_H1ZjUNAREe2-JvsY9seYUg" name="getSommePaye">
+      <modelElement href="ParcMetreV.uml#_HofvgdAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjUdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjUtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1ZjU9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HogWkNAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1ZjVNAREe2-JvsY9seYUg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_H1ZjVdAREe2-JvsY9seYUg" name="Parcmetre">
+      <modelElement href="ParcMetreV.uml#_HqxAYNAREe2-JvsY9seYUg"/>
+      <keywords xmi:id="_H1ZjVtAREe2-JvsY9seYUg" keyword="create"/>
+      <visibility xmi:id="_H1ZjV9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjWNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1ZjWdAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HqxnctAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1ZjWtAREe2-JvsY9seYUg" name="Parcmetre">
+          <modelElement href="ParcMetreV.uml#_HoYawNAREe2-JvsY9seYUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1ZjW9AREe2-JvsY9seYUg" name="voiture">
+        <modelElement href="ParcMetreV.uml#_HqxAYdAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1ZjXNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1ZjXdAREe2-JvsY9seYUg" name="Voiture">
+          <modelElement href="ParcMetreV.uml#_HopggNAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_H1ZjXtAREe2-JvsY9seYUg" name="sommePayee">
+        <modelElement href="ParcMetreV.uml#_HqxAYtAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1ZjX9AREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1ZjYNAREe2-JvsY9seYUg" name="Double">
+          <modelElement href="ParcMetreV.uml#_HqvyQdAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_H1ZjYdAREe2-JvsY9seYUg" name="date">
+        <modelElement href="ParcMetreV.uml#_HqxAY9AREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1ZjYtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1ZjY9AREe2-JvsY9seYUg" name="LocalDateTime">
+          <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1ZjZNAREe2-JvsY9seYUg" name="addDay">
+      <modelElement href="ParcMetreV.uml#_HqyOgNAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1ZjZdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1ZjZtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1ZjZ9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hqy1kNAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1ZjaNAREe2-JvsY9seYUg" name="LocalDateTime">
+          <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1ZjadAREe2-JvsY9seYUg" name="date">
+        <modelElement href="ParcMetreV.uml#_HqyOgdAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1ZjatAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1Zja9AREe2-JvsY9seYUg" name="LocalDateTime">
+          <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1aKINAREe2-JvsY9seYUg" name="dateIsOk">
+      <modelElement href="ParcMetreV.uml#_Hqy1kdAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1aKIdAREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H1aKItAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1aKI9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HqzcodAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1aKJNAREe2-JvsY9seYUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1aKJdAREe2-JvsY9seYUg" name="date">
+        <modelElement href="ParcMetreV.uml#_HqzcoNAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1aKJtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1aKJ9AREe2-JvsY9seYUg" name="LocalDateTime">
+          <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1aKKNAREe2-JvsY9seYUg" name="isSunday">
+      <modelElement href="ParcMetreV.uml#_HqzcotAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1aKKdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1aKKtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1aKK9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hq0DsdAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1aKLNAREe2-JvsY9seYUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1aKLdAREe2-JvsY9seYUg" name="date">
+        <modelElement href="ParcMetreV.uml#_Hq0DsNAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1aKLtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1aKL9AREe2-JvsY9seYUg" name="LocalDate">
+          <modelElement href="ParcMetreV.uml#_HqeFcdAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1aKMNAREe2-JvsY9seYUg" name="isVaccance">
+      <modelElement href="ParcMetreV.uml#_Hq0DstAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1aKMdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1aKMtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1aKM9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hq0qwNAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1aKNNAREe2-JvsY9seYUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1aKNdAREe2-JvsY9seYUg" name="date">
+        <modelElement href="ParcMetreV.uml#_Hq0Ds9AREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1aKNtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1aKN9AREe2-JvsY9seYUg" name="LocalDate">
+          <modelElement href="ParcMetreV.uml#_HqeFcdAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1aKONAREe2-JvsY9seYUg" name="isHeureHorsPlage">
+      <modelElement href="ParcMetreV.uml#_Hq0qwdAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1aKOdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H1aKOtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1aKO9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hq1R0NAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1aKPNAREe2-JvsY9seYUg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1aKPdAREe2-JvsY9seYUg" name="date">
+        <modelElement href="ParcMetreV.uml#_Hq0qwtAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1aKPtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1aKP9AREe2-JvsY9seYUg" name="LocalDateTime">
+          <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H1aKQNAREe2-JvsY9seYUg" name="minuteRestantesPourJourSuivant">
+      <modelElement href="ParcMetreV.uml#_Hq1R0dAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H1aKQdAREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H1aKQtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H1aKQ9AREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hq144dAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H1aKRNAREe2-JvsY9seYUg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H1aKRdAREe2-JvsY9seYUg" name="dateTime">
+        <modelElement href="ParcMetreV.uml#_Hq144NAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H1aKRtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H1aKR9AREe2-JvsY9seYUg" name="LocalDateTime">
+          <modelElement href="ParcMetreV.uml#_HqZM8NAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H2AAANAREe2-JvsY9seYUg" name="Ticket" associationsOut="_H17ukNAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_Hol2INAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H2AAAdAREe2-JvsY9seYUg" position="568.0,943.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_H2AAAtAREe2-JvsY9seYUg" label="+"/>
+    <attributes xmi:id="_H2AAA9AREe2-JvsY9seYUg" name="parcmetre">
+      <modelElement href="ParcMetreV.uml#_HrCtMdAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2AABNAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HrDUQNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2AABdAREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H2AABtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H2AAB9AREe2-JvsY9seYUg" name="Parcmetre">
+        <modelElement href="ParcMetreV.uml#_HoYawNAREe2-JvsY9seYUg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_H2AACNAREe2-JvsY9seYUg" name="text">
+      <modelElement href="ParcMetreV.uml#_HonEQNAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H2AnENAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2AnEdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H2AnEtAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HonrUNAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H2AnE9AREe2-JvsY9seYUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_H2AnFNAREe2-JvsY9seYUg" name="Ticket">
+      <modelElement href="ParcMetreV.uml#_Hqn2cdAREe2-JvsY9seYUg"/>
+      <keywords xmi:id="_H2AnFdAREe2-JvsY9seYUg" keyword="create"/>
+      <visibility xmi:id="_H2AnFtAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2AnF9AREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H2AnGNAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_Hqodg9AREe2-JvsY9seYUg"/>
+        <type xmi:id="_H2AnGdAREe2-JvsY9seYUg" name="Ticket">
+          <modelElement href="ParcMetreV.uml#_Hol2INAREe2-JvsY9seYUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_H2AnGtAREe2-JvsY9seYUg" name="parcmetre">
+        <modelElement href="ParcMetreV.uml#_HqodgNAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H2AnG9AREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H2AnHNAREe2-JvsY9seYUg" name="Parcmetre">
+          <modelElement href="ParcMetreV.uml#_HoYawNAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H2E4gNAREe2-JvsY9seYUg" name="App">
+    <modelElement href="ParcMetreV.uml#_HoOCsNAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H2E4gdAREe2-JvsY9seYUg" position="310.0,805.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_H2E4gtAREe2-JvsY9seYUg" label="+"/>
+    <operations xmi:id="_H2E4g9AREe2-JvsY9seYUg" name="main" staticOperation="true">
+      <modelElement href="ParcMetreV.uml#_HoSUINAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H2E4hNAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2E4hdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_H2E4htAREe2-JvsY9seYUg" name="args">
+        <modelElement href="ParcMetreV.uml#_HoSUIdAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H2E4h9AREe2-JvsY9seYUg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_H2E4iNAREe2-JvsY9seYUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H2H70NAREe2-JvsY9seYUg" name="VoitureTest">
+    <modelElement href="ParcMetreV.uml#_Ho3i8NAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H2H70dAREe2-JvsY9seYUg" position="562.0,1081.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_H2H70tAREe2-JvsY9seYUg" label="+"/>
+    <operations xmi:id="_H2H709AREe2-JvsY9seYUg" name="testConstructorWithInvalidPlaque">
+      <modelElement href="ParcMetreV.uml#_Ho4KANAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2H71NAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_Ho4KAdAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2H71dAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_Ho4xENAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2H71tAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2H719AREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_H2H72NAREe2-JvsY9seYUg" name="testConstructorWithValidPlaque">
+      <modelElement href="ParcMetreV.uml#_Ho4xE9AREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2H72dAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_Ho5YINAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2H72tAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_Ho5YIdAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2H729AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2H73NAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H15SUNAREe2-JvsY9seYUg" name="Imprimante">
+    <modelElement href="ParcMetreV.uml#_HoVXcNAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H15SUdAREe2-JvsY9seYUg" position="582.0,652.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_H15SUtAREe2-JvsY9seYUg" label="+"/>
+    <operations xmi:id="_H15SU9AREe2-JvsY9seYUg" name="Imprimante">
+      <modelElement href="ParcMetreV.uml#_HoV-gNAREe2-JvsY9seYUg"/>
+      <keywords xmi:id="_H15SVNAREe2-JvsY9seYUg" keyword="create"/>
+      <stereotypes xmi:id="_H15SVdAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HoXMoNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H15SVtAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H15SV9AREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_H15SWNAREe2-JvsY9seYUg">
+        <modelElement href="ParcMetreV.uml#_HoXModAREe2-JvsY9seYUg"/>
+        <type xmi:id="_H15SWdAREe2-JvsY9seYUg" name="Imprimante">
+          <modelElement href="ParcMetreV.uml#_HoVXcNAREe2-JvsY9seYUg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_H15SWtAREe2-JvsY9seYUg" name="imprimer">
+      <modelElement href="ParcMetreV.uml#_HqbCIdAREe2-JvsY9seYUg"/>
+      <visibility xmi:id="_H15SW9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H15SXNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_H15SXdAREe2-JvsY9seYUg" name="ticket">
+        <modelElement href="ParcMetreV.uml#_HqbpMNAREe2-JvsY9seYUg"/>
+        <cardinality xmi:id="_H15SXtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+        <type xmi:id="_H15SX9AREe2-JvsY9seYUg" name="Ticket">
+          <modelElement href="ParcMetreV.uml#_Hol2INAREe2-JvsY9seYUg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H2M0UNAREe2-JvsY9seYUg" name="ParcmetreTest" associationsOut="_H2KYENAREe2-JvsY9seYUg">
+    <modelElement href="ParcMetreV.uml#_HotK4NAREe2-JvsY9seYUg"/>
+    <visualProperties xmi:id="_H2M0UdAREe2-JvsY9seYUg" position="941.0,587.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_H2M0UtAREe2-JvsY9seYUg" label="+"/>
+    <attributes xmi:id="_H2M0U9AREe2-JvsY9seYUg" name="parcmetre">
+      <modelElement href="ParcMetreV.uml#_HrD7UdAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0VNAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HrD7UtAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0VdAREe2-JvsY9seYUg" label="-"/>
+      <cardinality xmi:id="_H2M0VtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+      <type xmi:id="_H2M0V9AREe2-JvsY9seYUg" name="Parcmetre">
+        <modelElement href="ParcMetreV.uml#_HoYawNAREe2-JvsY9seYUg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_H2M0WNAREe2-JvsY9seYUg" name="setup">
+      <modelElement href="ParcMetreV.uml#_HouZANAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0WdAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HovAENAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2M0WtAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_HowOMNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0W9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2M0XNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_H2M0XdAREe2-JvsY9seYUg" name="testCalculerTemps">
+      <modelElement href="ParcMetreV.uml#_How1QNAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0XtAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_How1QdAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2M0X9AREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_HoxcUNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0YNAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2M0YdAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_H2M0YtAREe2-JvsY9seYUg" name="testIsFerie">
+      <modelElement href="ParcMetreV.uml#_HoxcUtAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0Y9AREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HoyDYNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2M0ZNAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_HoyqcNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0ZdAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2M0ZtAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_H2M0Z9AREe2-JvsY9seYUg" name="testIsSunday">
+      <modelElement href="ParcMetreV.uml#_HoyqctAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0aNAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_HozRgNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2M0adAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_HozRgdAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0atAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2M0a9AREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_H2M0bNAREe2-JvsY9seYUg" name="testIsVaccance">
+      <modelElement href="ParcMetreV.uml#_Hoz4kdAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0bdAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_Hoz4ktAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2M0btAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_Ho0foNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0b9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2M0cNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_H2M0cdAREe2-JvsY9seYUg" name="testIsHeureHorsPlage">
+      <modelElement href="ParcMetreV.uml#_Ho0fotAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0ctAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_Ho1GsNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2M0c9AREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_Ho1twNAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0dNAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2M0ddAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_H2M0dtAREe2-JvsY9seYUg" name="testCalculNbMinute">
+      <modelElement href="ParcMetreV.uml#_Ho1twtAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_H2M0d9AREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_Ho2U0NAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_H2M0eNAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_Ho2U0dAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_H2M0edAREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_H2M0etAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_8CT6ENAREe2-JvsY9seYUg" name="testSommePayeeTropElevee">
+      <modelElement href="ParcMetreV.uml#_8CRd0NAREe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_8CT6EdAREe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_8CSE4NAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_8CT6EtAREe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_8CSr8NAREe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_8CT6E9AREe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_8CT6FNAREe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eq43oNASEe2-JvsY9seYUg" name="testSommePayeeCorrect">
+      <modelElement href="ParcMetreV.uml#_eq2bYNASEe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_eq43odASEe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_eq3CcNASEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eq43otASEe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_eq3CctASEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_eq43o9ASEe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_eq43pNASEe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vR9-oNASEe2-JvsY9seYUg" name="testGetVoiture">
+      <modelElement href="ParcMetreV.uml#_vR7iYNASEe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_vR9-odASEe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_vR7iYdASEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vR9-otASEe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_vR8JcdASEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_vR9-o9ASEe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_vR9-pNASEe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_9NvV8NASEe2-JvsY9seYUg" name="testGetDateEntree">
+      <modelElement href="ParcMetreV.uml#_9NsSoNASEe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_9NvV8dASEe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_9Ns5sNASEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_9NvV8tASEe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_9Ns5stASEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_9NvV89ASEe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_9NvV9NASEe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_NEhBYNATEe2-JvsY9seYUg" name="testGetSommePaye">
+      <modelElement href="ParcMetreV.uml#_NEdXANATEe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_NEhBYdATEe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_NEd-ENATEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NEhBYtATEe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_NEelINATEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_NEhBY9ATEe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_NEhBZNATEe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_wH32cNATEe2-JvsY9seYUg" name="testCalculeNbMinuteSupérieurADeux">
+      <modelElement href="ParcMetreV.uml#_wHy98NATEe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_wH32cdATEe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_wHy98dATEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wH32ctATEe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_wHzlANATEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_wH32c9ATEe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_wH32dNATEe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_osvFINAUEe2-JvsY9seYUg" name="testAddDay">
+      <modelElement href="ParcMetreV.uml#_ostP8NAUEe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_osvFIdAUEe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_ostP8dAUEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_osvFItAUEe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_ost3ANAUEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_osvFI9AUEe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_osvFJNAUEe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_WLDdMNAVEe2-JvsY9seYUg" name="testDemainIsdimanche">
+      <modelElement href="ParcMetreV.uml#_WKte8NAVEe2-JvsY9seYUg"/>
+      <stereotypes xmi:id="_WLDdMdAVEe2-JvsY9seYUg" name="Annotations">
+        <modelElement href="ParcMetreV.uml#_WKte8dAVEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WLDdMtAVEe2-JvsY9seYUg" name="LegacyStyledElement">
+        <modelElement href="ParcMetreV.uml#_WKte89AVEe2-JvsY9seYUg"/>
+      </stereotypes>
+      <visibility xmi:id="_WLDdM9AVEe2-JvsY9seYUg" label="+"/>
+      <cardinality xmi:id="_WLDdNNAVEe2-JvsY9seYUg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
